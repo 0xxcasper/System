@@ -1,0 +1,22 @@
+PODS:
+  - Charts (3.4.0):
+    - Charts/Core (= 3.4.0)
+  - Charts/Core (3.4.0)
+  - SystemServices (2.0.1)
+
+DEPENDENCIES:
+  - Charts
+  - SystemServices (~> 2.0.1)
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - SystemServices
+
+SPEC CHECKSUMS:
+  Charts: 74c9f256eaf0460c0c416522d1cf8c634ea6b286
+  SystemServices: 7af348493ece8951449b476c41532df72569b181
+
+PODFILE CHECKSUM: 9c2724ac1a43aa2135974f03b682d0555755ac11
+
+COCOAPODS: 1.8.3

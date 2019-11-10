@@ -3,27 +3,62 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		DB9BE0902378636000DCBAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE08F2378636000DCBAAB /* AppDelegate.swift */; };
 		DB9BE0922378636000DCBAAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE0912378636000DCBAAB /* SceneDelegate.swift */; };
-		DB9BE0942378636000DCBAAB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE0932378636000DCBAAB /* ViewController.swift */; };
-		DB9BE0972378636000DCBAAB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE0952378636000DCBAAB /* Main.storyboard */; };
 		DB9BE0992378636100DCBAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE0982378636100DCBAAB /* Assets.xcassets */; };
 		DB9BE09C2378636100DCBAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE09A2378636100DCBAAB /* LaunchScreen.storyboard */; };
+		DB9BE1332378660400DCBAAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE1312378660400DCBAAB /* HomeViewController.swift */; };
+		DB9BE1342378660400DCBAAB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE1322378660400DCBAAB /* HomeViewController.xib */; };
+		DB9BE13923786C2600DCBAAB /* BatteryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE13723786C2600DCBAAB /* BatteryViewController.swift */; };
+		DB9BE13A23786C2600DCBAAB /* BatteryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE13823786C2600DCBAAB /* BatteryViewController.xib */; };
+		DB9BE13E23786C3D00DCBAAB /* MemoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE13C23786C3D00DCBAAB /* MemoryViewController.swift */; };
+		DB9BE13F23786C3D00DCBAAB /* MemoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE13D23786C3D00DCBAAB /* MemoryViewController.xib */; };
+		DB9BE14323786C5900DCBAAB /* DiskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE14123786C5900DCBAAB /* DiskViewController.swift */; };
+		DB9BE14423786C5900DCBAAB /* DiskViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE14223786C5900DCBAAB /* DiskViewController.xib */; };
+		DB9BE14823786C7200DCBAAB /* CPUViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE14623786C7200DCBAAB /* CPUViewController.swift */; };
+		DB9BE14923786C7200DCBAAB /* CPUViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE14723786C7200DCBAAB /* CPUViewController.xib */; };
+		DB9BE14D23786C8A00DCBAAB /* NetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE14B23786C8A00DCBAAB /* NetworkViewController.swift */; };
+		DB9BE14E23786C8A00DCBAAB /* NetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE14C23786C8A00DCBAAB /* NetworkViewController.xib */; };
+		DB9BE15123786C9900DCBAAB /* GeneralViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE14F23786C9900DCBAAB /* GeneralViewController.swift */; };
+		DB9BE15223786C9900DCBAAB /* GeneralViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE15023786C9900DCBAAB /* GeneralViewController.xib */; };
+		DB9BE1582378700000DCBAAB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE1572378700000DCBAAB /* BaseView.swift */; };
+		DB9BE15B2378708000DCBAAB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE15A2378708000DCBAAB /* HeaderView.swift */; };
+		DB9BE15D2378708A00DCBAAB /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE15C2378708A00DCBAAB /* HeaderView.xib */; };
+		DD86BED55B163EA2AD783ED9 /* Pods_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC07B821B01A997099F91E7 /* Pods_System.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DC07B821B01A997099F91E7 /* Pods_System.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_System.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7B5DCBD2DEB8D6359D62FE /* Pods-System.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-System.release.xcconfig"; path = "Target Support Files/Pods-System/Pods-System.release.xcconfig"; sourceTree = "<group>"; };
+		AD91E4B71392B17B67D8DAA2 /* Pods-System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-System.debug.xcconfig"; path = "Target Support Files/Pods-System/Pods-System.debug.xcconfig"; sourceTree = "<group>"; };
 		DB9BE08C2378636000DCBAAB /* System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = System.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9BE08F2378636000DCBAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DB9BE0912378636000DCBAAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DB9BE0932378636000DCBAAB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DB9BE0962378636000DCBAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DB9BE0982378636100DCBAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9BE09B2378636100DCBAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB9BE09D2378636100DCBAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB9BE0A3237863EC00DCBAAB /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		DB9BE1312378660400DCBAAB /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		DB9BE1322378660400DCBAAB /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		DB9BE13723786C2600DCBAAB /* BatteryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryViewController.swift; sourceTree = "<group>"; };
+		DB9BE13823786C2600DCBAAB /* BatteryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BatteryViewController.xib; sourceTree = "<group>"; };
+		DB9BE13C23786C3D00DCBAAB /* MemoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryViewController.swift; sourceTree = "<group>"; };
+		DB9BE13D23786C3D00DCBAAB /* MemoryViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemoryViewController.xib; sourceTree = "<group>"; };
+		DB9BE14123786C5900DCBAAB /* DiskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiskViewController.swift; sourceTree = "<group>"; };
+		DB9BE14223786C5900DCBAAB /* DiskViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DiskViewController.xib; sourceTree = "<group>"; };
+		DB9BE14623786C7200DCBAAB /* CPUViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CPUViewController.swift; sourceTree = "<group>"; };
+		DB9BE14723786C7200DCBAAB /* CPUViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CPUViewController.xib; sourceTree = "<group>"; };
+		DB9BE14B23786C8A00DCBAAB /* NetworkViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewController.swift; sourceTree = "<group>"; };
+		DB9BE14C23786C8A00DCBAAB /* NetworkViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetworkViewController.xib; sourceTree = "<group>"; };
+		DB9BE14F23786C9900DCBAAB /* GeneralViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralViewController.swift; sourceTree = "<group>"; };
+		DB9BE15023786C9900DCBAAB /* GeneralViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneralViewController.xib; sourceTree = "<group>"; };
+		DB9BE1572378700000DCBAAB /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		DB9BE15A2378708000DCBAAB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		DB9BE15C2378708A00DCBAAB /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +66,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD86BED55B163EA2AD783ED9 /* Pods_System.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		822EA499DE6BD4815A1058F4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD91E4B71392B17B67D8DAA2 /* Pods-System.debug.xcconfig */,
+				7E7B5DCBD2DEB8D6359D62FE /* Pods-System.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		DB9BE0832378636000DCBAAB = {
 			isa = PBXGroup;
 			children = (
 				DB9BE08E2378636000DCBAAB /* System */,
 				DB9BE08D2378636000DCBAAB /* Products */,
+				822EA499DE6BD4815A1058F4 /* Pods */,
+				E041284CC30BE91C44027E9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +103,135 @@
 		DB9BE08E2378636000DCBAAB /* System */ = {
 			isa = PBXGroup;
 			children = (
+				DB9BE15523786FB600DCBAAB /* Views */,
+				DB9BE12F237865BF00DCBAAB /* ViewController */,
 				DB9BE08F2378636000DCBAAB /* AppDelegate.swift */,
 				DB9BE0912378636000DCBAAB /* SceneDelegate.swift */,
-				DB9BE0932378636000DCBAAB /* ViewController.swift */,
-				DB9BE0952378636000DCBAAB /* Main.storyboard */,
 				DB9BE0982378636100DCBAAB /* Assets.xcassets */,
 				DB9BE09A2378636100DCBAAB /* LaunchScreen.storyboard */,
 				DB9BE09D2378636100DCBAAB /* Info.plist */,
+				DB9BE0A3237863EC00DCBAAB /* Header.h */,
 			);
 			path = System;
+			sourceTree = "<group>";
+		};
+		DB9BE12F237865BF00DCBAAB /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BE15323786CA100DCBAAB /* GeneralViewController */,
+				DB9BE14A23786C7D00DCBAAB /* NetworkViewController */,
+				DB9BE14523786C6200DCBAAB /* CPUViewController */,
+				DB9BE14023786C4D00DCBAAB /* DiskViewController */,
+				DB9BE13B23786C2E00DCBAAB /* MemoryViewController */,
+				DB9BE13623786C1700DCBAAB /* BatteryViewController */,
+				DB9BE130237865D400DCBAAB /* HomeViewController */,
+				DB9BE13523786B8A00DCBAAB /* BaseViewController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		DB9BE130237865D400DCBAAB /* HomeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BE1312378660400DCBAAB /* HomeViewController.swift */,
+				DB9BE1322378660400DCBAAB /* HomeViewController.xib */,
+			);
+			path = HomeViewController;
+			sourceTree = "<group>";
+		};
+		DB9BE13523786B8A00DCBAAB /* BaseViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BaseViewController;
+			sourceTree = "<group>";
+		};
+		DB9BE13623786C1700DCBAAB /* BatteryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BE13723786C2600DCBAAB /* BatteryViewController.swift */,
+				DB9BE13823786C2600DCBAAB /* BatteryViewController.xib */,
+			);
+			path = BatteryViewController;
+			sourceTree = "<group>";
+		};
+		DB9BE13B23786C2E00DCBAAB /* MemoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BE13C23786C3D00DCBAAB /* MemoryViewController.swift */,
+				DB9BE13D23786C3D00DCBAAB /* MemoryViewController.xib */,
+			);
+			path = MemoryViewController;
+			sourceTree = "<group>";
+		};
+		DB9BE14023786C4D00DCBAAB /* DiskViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BE14123786C5900DCBAAB /* DiskViewController.swift */,
+				DB9BE14223786C5900DCBAAB /* DiskViewController.xib */,
+			);
+			path = DiskViewController;
+			sourceTree = "<group>";
+		};
+		DB9BE14523786C6200DCBAAB /* CPUViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BE14623786C7200DCBAAB /* CPUViewController.swift */,
+				DB9BE14723786C7200DCBAAB /* CPUViewController.xib */,
+			);
+			path = CPUViewController;
+			sourceTree = "<group>";
+		};
+		DB9BE14A23786C7D00DCBAAB /* NetworkViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BE14B23786C8A00DCBAAB /* NetworkViewController.swift */,
+				DB9BE14C23786C8A00DCBAAB /* NetworkViewController.xib */,
+			);
+			path = NetworkViewController;
+			sourceTree = "<group>";
+		};
+		DB9BE15323786CA100DCBAAB /* GeneralViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BE14F23786C9900DCBAAB /* GeneralViewController.swift */,
+				DB9BE15023786C9900DCBAAB /* GeneralViewController.xib */,
+			);
+			path = GeneralViewController;
+			sourceTree = "<group>";
+		};
+		DB9BE15523786FB600DCBAAB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BE1592378706700DCBAAB /* HeaderView */,
+				DB9BE15623786FEA00DCBAAB /* BaseView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DB9BE15623786FEA00DCBAAB /* BaseView */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BE1572378700000DCBAAB /* BaseView.swift */,
+			);
+			path = BaseView;
+			sourceTree = "<group>";
+		};
+		DB9BE1592378706700DCBAAB /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				DB9BE15A2378708000DCBAAB /* HeaderView.swift */,
+				DB9BE15C2378708A00DCBAAB /* HeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		E041284CC30BE91C44027E9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DC07B821B01A997099F91E7 /* Pods_System.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +241,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = DB9BE0A02378636200DCBAAB /* Build configuration list for PBXNativeTarget "System" */;
 			buildPhases = (
+				82344C9BAEF90F8B3E2AC909 /* [CP] Check Pods Manifest.lock */,
 				DB9BE0882378636000DCBAAB /* Sources */,
 				DB9BE0892378636000DCBAAB /* Frameworks */,
 				DB9BE08A2378636000DCBAAB /* Resources */,
+				B10FB31DCB43BBC2FB3BA843 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +296,83 @@
 			files = (
 				DB9BE09C2378636100DCBAAB /* LaunchScreen.storyboard in Resources */,
 				DB9BE0992378636100DCBAAB /* Assets.xcassets in Resources */,
-				DB9BE0972378636000DCBAAB /* Main.storyboard in Resources */,
+				DB9BE13F23786C3D00DCBAAB /* MemoryViewController.xib in Resources */,
+				DB9BE15D2378708A00DCBAAB /* HeaderView.xib in Resources */,
+				DB9BE15223786C9900DCBAAB /* GeneralViewController.xib in Resources */,
+				DB9BE14E23786C8A00DCBAAB /* NetworkViewController.xib in Resources */,
+				DB9BE13A23786C2600DCBAAB /* BatteryViewController.xib in Resources */,
+				DB9BE14923786C7200DCBAAB /* CPUViewController.xib in Resources */,
+				DB9BE1342378660400DCBAAB /* HomeViewController.xib in Resources */,
+				DB9BE14423786C5900DCBAAB /* DiskViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82344C9BAEF90F8B3E2AC909 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-System-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B10FB31DCB43BBC2FB3BA843 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-System/Pods-System-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-System/Pods-System-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-System/Pods-System-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		DB9BE0882378636000DCBAAB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB9BE0942378636000DCBAAB /* ViewController.swift in Sources */,
+				DB9BE14323786C5900DCBAAB /* DiskViewController.swift in Sources */,
+				DB9BE1332378660400DCBAAB /* HomeViewController.swift in Sources */,
+				DB9BE15123786C9900DCBAAB /* GeneralViewController.swift in Sources */,
+				DB9BE13923786C2600DCBAAB /* BatteryViewController.swift in Sources */,
+				DB9BE15B2378708000DCBAAB /* HeaderView.swift in Sources */,
 				DB9BE0902378636000DCBAAB /* AppDelegate.swift in Sources */,
+				DB9BE14D23786C8A00DCBAAB /* NetworkViewController.swift in Sources */,
 				DB9BE0922378636000DCBAAB /* SceneDelegate.swift in Sources */,
+				DB9BE13E23786C3D00DCBAAB /* MemoryViewController.swift in Sources */,
+				DB9BE14823786C7200DCBAAB /* CPUViewController.swift in Sources */,
+				DB9BE1582378700000DCBAAB /* BaseView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DB9BE0952378636000DCBAAB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DB9BE0962378636000DCBAAB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DB9BE09A2378636100DCBAAB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,16 +500,26 @@
 		};
 		DB9BE0A12378636200DCBAAB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD91E4B71392B17B67D8DAA2 /* Pods-System.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/System/SystemMonitor/HockeySDK/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = System/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/System/SystemMonitor/Lumberjack",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = SangNX.System;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = System/Header.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +527,26 @@
 		};
 		DB9BE0A22378636200DCBAAB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E7B5DCBD2DEB8D6359D62FE /* Pods-System.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/System/SystemMonitor/HockeySDK/HockeySDK.embeddedframework",
+				);
 				INFOPLIST_FILE = System/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/System/SystemMonitor/Lumberjack",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = SangNX.System;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = System/Header.h;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
