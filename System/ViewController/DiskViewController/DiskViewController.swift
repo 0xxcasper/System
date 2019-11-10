@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DiskViewController: UIViewController {
+class DiskViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

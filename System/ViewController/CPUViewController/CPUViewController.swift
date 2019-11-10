@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CPUViewController: UIViewController {
+class CPUViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

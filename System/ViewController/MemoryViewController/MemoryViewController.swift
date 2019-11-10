@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MemoryViewController: UIViewController {
+class MemoryViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

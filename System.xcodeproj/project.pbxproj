@@ -28,6 +28,7 @@
 		DB9BE1582378700000DCBAAB /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE1572378700000DCBAAB /* BaseView.swift */; };
 		DB9BE15B2378708000DCBAAB /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE15A2378708000DCBAAB /* HeaderView.swift */; };
 		DB9BE15D2378708A00DCBAAB /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE15C2378708A00DCBAAB /* HeaderView.xib */; };
+		DB9BE15F2378747700DCBAAB /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE15E2378747700DCBAAB /* BaseViewController.swift */; };
 		DD86BED55B163EA2AD783ED9 /* Pods_System.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DC07B821B01A997099F91E7 /* Pods_System.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,6 +60,7 @@
 		DB9BE1572378700000DCBAAB /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		DB9BE15A2378708000DCBAAB /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		DB9BE15C2378708A00DCBAAB /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		DB9BE15E2378747700DCBAAB /* BaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,6 +144,7 @@
 		DB9BE13523786B8A00DCBAAB /* BaseViewController */ = {
 			isa = PBXGroup;
 			children = (
+				DB9BE15E2378747700DCBAAB /* BaseViewController.swift */,
 			);
 			path = BaseViewController;
 			sourceTree = "<group>";
@@ -361,6 +364,7 @@
 				DB9BE15123786C9900DCBAAB /* GeneralViewController.swift in Sources */,
 				DB9BE13923786C2600DCBAAB /* BatteryViewController.swift in Sources */,
 				DB9BE15B2378708000DCBAAB /* HeaderView.swift in Sources */,
+				DB9BE15F2378747700DCBAAB /* BaseViewController.swift in Sources */,
 				DB9BE0902378636000DCBAAB /* AppDelegate.swift in Sources */,
 				DB9BE14D23786C8A00DCBAAB /* NetworkViewController.swift in Sources */,
 				DB9BE0922378636000DCBAAB /* SceneDelegate.swift in Sources */,

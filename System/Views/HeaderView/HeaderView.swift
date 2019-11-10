@@ -28,4 +28,9 @@ class HeaderView: BaseView {
         self.chartView.drawCenterTextEnabled = true
         self.chartView.holeColor = UIColor.clear
     }
+    
+    //Pase data vô ở đây. truyền tham số cần vào đây
+    func setupChartView() {
+        
+    }
 }

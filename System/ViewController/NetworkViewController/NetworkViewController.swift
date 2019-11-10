@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NetworkViewController: UIViewController {
+class NetworkViewController: BaseViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
