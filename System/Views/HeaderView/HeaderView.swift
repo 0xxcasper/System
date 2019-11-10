@@ -30,7 +30,29 @@ class HeaderView: BaseView {
     }
     
     //Pase data vô ở đây. truyền tham số cần vào đây
-    func setupChartView() {
+    private func drawData(values: [Double], colors: [UIColor]) {
+        self.chartView.usePercentValuesEnabled = true
+        self.chartView.drawCenterTextEnabled = false
+        self.chartView.rotationAngle = 90
+        self.chartView.rotationEnabled = true
         
+        let l:Legend = self.chartView.legend
+        l.enabled = false
+        self.chartView.animate(xAxisDuration: 1.4, yAxisDuration: 1.4, easingOption: ChartEasingOption.easeOutBack)
+        
+        // Set data
+        var dataEntries: Array<BarChartDataEntry> = Array()
+        for i: Int in 0...values.count - 1 {
+            dataEntries.append(BarChartDataEntry(x: Double(i), y: values[i]))
+        }
+        
+        let dataSet = PieChartDataSet(entries: dataEntries, label: "")
+        dataSet.drawValuesEnabled = false
+        dataSet.colors = colors
+        DispatchQueue.main.async {
+            let data = PieChartData(dataSet: dataSet)
+            self.chartView.data = data
+            self.chartView.highlightValues(nil)
+        }
     }
 }
