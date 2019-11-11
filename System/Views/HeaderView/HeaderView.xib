@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,8 +28,8 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="21" id="jm7-oT-v9h"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <color key="textColor" red="0.78039215689999997" green="0.77647058820000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1025 MB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mRx-Vf-frS">
@@ -42,15 +42,15 @@
                             <nil key="highlightedColor"/>
                         </label>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="J71-V2-fB1" customClass="PieChartView" customModule="Charts">
-                            <rect key="frame" x="65" y="44" width="336" height="103"/>
+                            <rect key="frame" x="65" y="44" width="336" height="106"/>
                             <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                         </view>
                     </subviews>
                     <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
-                        <constraint firstItem="J71-V2-fB1" firstAttribute="leading" secondItem="1sj-ZX-Sc5" secondAttribute="leading" constant="65" id="0Do-bf-tZ9"/>
-                        <constraint firstItem="mRx-Vf-frS" firstAttribute="top" secondItem="J71-V2-fB1" secondAttribute="bottom" constant="8" id="4q5-tU-qSZ"/>
+                        <constraint firstItem="mRx-Vf-frS" firstAttribute="top" secondItem="J71-V2-fB1" secondAttribute="bottom" constant="5" id="4q5-tU-qSZ"/>
                         <constraint firstAttribute="trailing" secondItem="weR-jx-ek7" secondAttribute="trailing" constant="50" id="91u-Ih-Ypw"/>
+                        <constraint firstItem="J71-V2-fB1" firstAttribute="centerX" secondItem="1sj-ZX-Sc5" secondAttribute="centerX" id="Zfg-ej-rY3"/>
                         <constraint firstAttribute="trailing" secondItem="mRx-Vf-frS" secondAttribute="trailing" constant="50" id="gha-Yl-ewl"/>
                         <constraint firstAttribute="bottom" secondItem="weR-jx-ek7" secondAttribute="bottom" constant="13" id="iPV-H2-XCz"/>
                         <constraint firstItem="mRx-Vf-frS" firstAttribute="leading" secondItem="1sj-ZX-Sc5" secondAttribute="leading" constant="50" id="iyW-EN-OoO"/>

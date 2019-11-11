@@ -38,9 +38,9 @@ class HeaderView: BaseView {
         viewGradient.setGradientBackground(colorTop: colorTop, colorBottom: colorBottom)
     }
 
-    func drawPieData(values: [Double], colors: [UIColor]) {
+    func drawPieData(values: [Double], colors: [UIColor], enableCenterText: Bool = false) {
         self.chartView.usePercentValuesEnabled = true
-        self.chartView.drawCenterTextEnabled = false
+        self.chartView.drawCenterTextEnabled = enableCenterText
         self.chartView.rotationAngle = 90
         self.chartView.rotationEnabled = true
         

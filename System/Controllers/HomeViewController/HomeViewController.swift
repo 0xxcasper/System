@@ -19,7 +19,7 @@ enum HomeCellIndex : Int
     case General
 }
 
-class HomeViewController: BaseViewController {
+class HomeViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -106,21 +106,21 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
             if SystemValue.connectedToCellNetwork == true { title = "3G" }
             if SystemValue.connectedToWiFi == true { title = "Wifi" }
             
-            let networkDataCounters: NSArray = SystemUtilities.getNetworkDataCounters()! as NSArray
-            var wwanSent     =  (networkDataCounters[2] as! NSNumber).intValue
-            var wwanReceived = (networkDataCounters[3] as! NSNumber).intValue
-            
-            if SystemValue.connectedToWiFi == true {
-                wwanSent     =  (networkDataCounters[0] as! NSNumber).intValue
-                wwanReceived = (networkDataCounters[1] as! NSNumber).intValue
-            }
-            let wwanSentPercent = (wwanSent * 100)/(wwanSent + wwanReceived)
-            
-            cell.setPieData(
-                title: title,
-                subTitle: "Internet",
-                values: [Double(wwanSentPercent), Double(100 - wwanSentPercent)],
-                colors: [grayColor, UIColor(red:0.99, green:0.75, blue:0.33, alpha:1)])
+//            let networkDataCounters: NSArray = SystemValue. SystemUtilities.getNetworkDataCounters()! as NSArray
+//            var wwanSent     =  (networkDataCounters[2] as! NSNumber).intValue
+//            var wwanReceived = (networkDataCounters[3] as! NSNumber).intValue
+//
+//            if SystemValue.connectedToWiFi == true {
+//                wwanSent     =  (networkDataCounters[0] as! NSNumber).intValue
+//                wwanReceived = (networkDataCounters[1] as! NSNumber).intValue
+//            }
+//            let wwanSentPercent = (wwanSent * 100)/(wwanSent + wwanReceived)
+//
+//            cell.setPieData(
+//                title: title,
+//                subTitle: "Internet",
+//                values: [Double(wwanSentPercent), Double(100 - wwanSentPercent)],
+//                colors: [grayColor, UIColor(red:0.99, green:0.75, blue:0.33, alpha:1)])
             break
         case HomeCellIndex.General.rawValue:
             return self.collectionView.dequeueCell(GeneralCollectionViewCell.self, indexPath: indexPath)
@@ -130,5 +130,15 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
         return cell
     }
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets {
+        return UIEdgeInsets(top: 16, left: 16, bottom: 16, right: 16)
+    }
     
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: (ScreenSize.Width - 30 - 20)/2, height: (ScreenSize.Width - 30 - 20)/2)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
+        self.navigationController?.pushViewController(viewControllers[indexPath.row], animated: true)
+    }
 }

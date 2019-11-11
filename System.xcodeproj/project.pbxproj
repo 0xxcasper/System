@@ -11,33 +11,6 @@
 		8489C731237902420001E56E /* GeneralTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8489C72F237902420001E56E /* GeneralTableViewCell.xib */; };
 		8489C735237903CA0001E56E /* UITable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489C734237903CA0001E56E /* UITable+Extension.swift */; };
 		8489C7382379047B0001E56E /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489C7372379047B0001E56E /* Constant.swift */; };
-		8489C75E237909110001E56E /* iPhone5s.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C73A237909100001E56E /* iPhone5s.plist */; };
-		8489C75F237909110001E56E /* iPad4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C73B237909100001E56E /* iPad4.plist */; };
-		8489C760237909110001E56E /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489C73C237909110001E56E /* NSString+MD5Addition.m */; };
-		8489C761237909110001E56E /* UIDevice+Resolutions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489C73D237909110001E56E /* UIDevice+Resolutions.m */; };
-		8489C762237909110001E56E /* iPodTouch4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C73E237909110001E56E /* iPodTouch4.plist */; };
-		8489C763237909110001E56E /* iPad2.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C73F237909110001E56E /* iPad2.plist */; };
-		8489C764237909110001E56E /* iPadMiniRetina.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C741237909110001E56E /* iPadMiniRetina.plist */; };
-		8489C765237909110001E56E /* iPodTouch5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C742237909110001E56E /* iPodTouch5.plist */; };
-		8489C766237909110001E56E /* country_codes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8489C743237909110001E56E /* country_codes.txt */; };
-		8489C767237909110001E56E /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489C744237909110001E56E /* UIDevice+IdentifierAddition.m */; };
-		8489C768237909110001E56E /* iPadMini.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C745237909110001E56E /* iPadMini.plist */; };
-		8489C769237909110001E56E /* BonjourUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489C748237909110001E56E /* BonjourUtils.m */; };
-		8489C76A237909110001E56E /* iPodTouch3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C749237909110001E56E /* iPodTouch3.plist */; };
-		8489C76B237909110001E56E /* AirPlayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489C74B237909110001E56E /* AirPlayUtils.m */; };
-		8489C76C237909110001E56E /* iPad3.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C74C237909110001E56E /* iPad3.plist */; };
-		8489C76D237909110001E56E /* iPhone4.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C74D237909110001E56E /* iPhone4.plist */; };
-		8489C76E237909110001E56E /* iPadAir.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C74E237909110001E56E /* iPadAir.plist */; };
-		8489C76F237909110001E56E /* iPhone5c.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C750237909110001E56E /* iPhone5c.plist */; };
-		8489C770237909110001E56E /* iPhone4s.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C752237909110001E56E /* iPhone4s.plist */; };
-		8489C771237909110001E56E /* iPhone3Gs.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C753237909110001E56E /* iPhone3Gs.plist */; };
-		8489C772237909110001E56E /* iPhone6.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C754237909110001E56E /* iPhone6.plist */; };
-		8489C773237909110001E56E /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 8489C755237909110001E56E /* IPAddress.c */; };
-		8489C774237909110001E56E /* LocationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489C756237909110001E56E /* LocationUtils.m */; };
-		8489C775237909110001E56E /* ALHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489C757237909110001E56E /* ALHardware.m */; };
-		8489C776237909110001E56E /* iPhone5.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C759237909110001E56E /* iPhone5.plist */; };
-		8489C777237909110001E56E /* SystemUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8489C75B237909110001E56E /* SystemUtilities.m */; };
-		8489C778237909110001E56E /* iPhone6Plus.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8489C75D237909110001E56E /* iPhone6Plus.plist */; };
 		8489C77A23790AE10001E56E /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8489C77923790AE10001E56E /* GLKit.framework */; };
 		8489C77C23790AF70001E56E /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8489C77B23790AF70001E56E /* AssetsLibrary.framework */; };
 		84DB40B92378F50700841468 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB40B82378F50700841468 /* UIView+Extension.swift */; };
@@ -88,6 +61,8 @@
 		84DB41F22378FCE100841468 /* ProcessInfoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DB41C62378FCE000841468 /* ProcessInfoController.m */; };
 		84DB41F62379004500841468 /* GeneralCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB41F42379004500841468 /* GeneralCollectionViewCell.swift */; };
 		84DB41F72379004500841468 /* GeneralCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DB41F52379004500841468 /* GeneralCollectionViewCell.xib */; };
+		84ED17BE237918A90061858B /* BatteryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED17BC237918A90061858B /* BatteryTableViewCell.swift */; };
+		84ED17BF237918A90061858B /* BatteryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ED17BD237918A90061858B /* BatteryTableViewCell.xib */; };
 		DB9BE0902378636000DCBAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE08F2378636000DCBAAB /* AppDelegate.swift */; };
 		DB9BE0922378636000DCBAAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE0912378636000DCBAAB /* SceneDelegate.swift */; };
 		DB9BE0992378636100DCBAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE0982378636100DCBAAB /* Assets.xcassets */; };
@@ -120,42 +95,6 @@
 		8489C72F237902420001E56E /* GeneralTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneralTableViewCell.xib; sourceTree = "<group>"; };
 		8489C734237903CA0001E56E /* UITable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITable+Extension.swift"; sourceTree = "<group>"; };
 		8489C7372379047B0001E56E /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
-		8489C73A237909100001E56E /* iPhone5s.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhone5s.plist; sourceTree = "<group>"; };
-		8489C73B237909100001E56E /* iPad4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPad4.plist; sourceTree = "<group>"; };
-		8489C73C237909110001E56E /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
-		8489C73D237909110001E56E /* UIDevice+Resolutions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Resolutions.m"; sourceTree = "<group>"; };
-		8489C73E237909110001E56E /* iPodTouch4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPodTouch4.plist; sourceTree = "<group>"; };
-		8489C73F237909110001E56E /* iPad2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPad2.plist; sourceTree = "<group>"; };
-		8489C740237909110001E56E /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
-		8489C741237909110001E56E /* iPadMiniRetina.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPadMiniRetina.plist; sourceTree = "<group>"; };
-		8489C742237909110001E56E /* iPodTouch5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPodTouch5.plist; sourceTree = "<group>"; };
-		8489C743237909110001E56E /* country_codes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = country_codes.txt; sourceTree = "<group>"; };
-		8489C744237909110001E56E /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
-		8489C745237909110001E56E /* iPadMini.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPadMini.plist; sourceTree = "<group>"; };
-		8489C746237909110001E56E /* ALHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALHardware.h; sourceTree = "<group>"; };
-		8489C747237909110001E56E /* LocationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationUtils.h; sourceTree = "<group>"; };
-		8489C748237909110001E56E /* BonjourUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourUtils.m; sourceTree = "<group>"; };
-		8489C749237909110001E56E /* iPodTouch3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPodTouch3.plist; sourceTree = "<group>"; };
-		8489C74A237909110001E56E /* SystemUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemUtilities.h; sourceTree = "<group>"; };
-		8489C74B237909110001E56E /* AirPlayUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayUtils.m; sourceTree = "<group>"; };
-		8489C74C237909110001E56E /* iPad3.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPad3.plist; sourceTree = "<group>"; };
-		8489C74D237909110001E56E /* iPhone4.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhone4.plist; sourceTree = "<group>"; };
-		8489C74E237909110001E56E /* iPadAir.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPadAir.plist; sourceTree = "<group>"; };
-		8489C74F237909110001E56E /* UIDevice+Resolutions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Resolutions.h"; sourceTree = "<group>"; };
-		8489C750237909110001E56E /* iPhone5c.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhone5c.plist; sourceTree = "<group>"; };
-		8489C751237909110001E56E /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
-		8489C752237909110001E56E /* iPhone4s.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhone4s.plist; sourceTree = "<group>"; };
-		8489C753237909110001E56E /* iPhone3Gs.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhone3Gs.plist; sourceTree = "<group>"; };
-		8489C754237909110001E56E /* iPhone6.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhone6.plist; sourceTree = "<group>"; };
-		8489C755237909110001E56E /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
-		8489C756237909110001E56E /* LocationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationUtils.m; sourceTree = "<group>"; };
-		8489C757237909110001E56E /* ALHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALHardware.m; sourceTree = "<group>"; };
-		8489C758237909110001E56E /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
-		8489C759237909110001E56E /* iPhone5.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhone5.plist; sourceTree = "<group>"; };
-		8489C75A237909110001E56E /* AirPlayUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayUtils.h; sourceTree = "<group>"; };
-		8489C75B237909110001E56E /* SystemUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemUtilities.m; sourceTree = "<group>"; };
-		8489C75C237909110001E56E /* BonjourUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourUtils.h; sourceTree = "<group>"; };
-		8489C75D237909110001E56E /* iPhone6Plus.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = iPhone6Plus.plist; sourceTree = "<group>"; };
 		8489C77923790AE10001E56E /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		8489C77B23790AF70001E56E /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		84DB40B82378F50700841468 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
@@ -243,6 +182,8 @@
 		84DB41C92378FCE000841468 /* SystemMonitor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemMonitor.h; sourceTree = "<group>"; };
 		84DB41F42379004500841468 /* GeneralCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralCollectionViewCell.swift; sourceTree = "<group>"; };
 		84DB41F52379004500841468 /* GeneralCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneralCollectionViewCell.xib; sourceTree = "<group>"; };
+		84ED17BC237918A90061858B /* BatteryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryTableViewCell.swift; sourceTree = "<group>"; };
+		84ED17BD237918A90061858B /* BatteryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BatteryTableViewCell.xib; sourceTree = "<group>"; };
 		AD91E4B71392B17B67D8DAA2 /* Pods-System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-System.debug.xcconfig"; path = "Target Support Files/Pods-System/Pods-System.debug.xcconfig"; sourceTree = "<group>"; };
 		DB9BE08C2378636000DCBAAB /* System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = System.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9BE08F2378636000DCBAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -313,49 +254,6 @@
 			path = Constant;
 			sourceTree = "<group>";
 		};
-		8489C739237909100001E56E /* SystemUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				8489C73A237909100001E56E /* iPhone5s.plist */,
-				8489C73B237909100001E56E /* iPad4.plist */,
-				8489C73C237909110001E56E /* NSString+MD5Addition.m */,
-				8489C73D237909110001E56E /* UIDevice+Resolutions.m */,
-				8489C73E237909110001E56E /* iPodTouch4.plist */,
-				8489C73F237909110001E56E /* iPad2.plist */,
-				8489C740237909110001E56E /* IPAddress.h */,
-				8489C741237909110001E56E /* iPadMiniRetina.plist */,
-				8489C742237909110001E56E /* iPodTouch5.plist */,
-				8489C743237909110001E56E /* country_codes.txt */,
-				8489C744237909110001E56E /* UIDevice+IdentifierAddition.m */,
-				8489C745237909110001E56E /* iPadMini.plist */,
-				8489C746237909110001E56E /* ALHardware.h */,
-				8489C747237909110001E56E /* LocationUtils.h */,
-				8489C748237909110001E56E /* BonjourUtils.m */,
-				8489C749237909110001E56E /* iPodTouch3.plist */,
-				8489C74A237909110001E56E /* SystemUtilities.h */,
-				8489C74B237909110001E56E /* AirPlayUtils.m */,
-				8489C74C237909110001E56E /* iPad3.plist */,
-				8489C74D237909110001E56E /* iPhone4.plist */,
-				8489C74E237909110001E56E /* iPadAir.plist */,
-				8489C74F237909110001E56E /* UIDevice+Resolutions.h */,
-				8489C750237909110001E56E /* iPhone5c.plist */,
-				8489C751237909110001E56E /* NSString+MD5Addition.h */,
-				8489C752237909110001E56E /* iPhone4s.plist */,
-				8489C753237909110001E56E /* iPhone3Gs.plist */,
-				8489C754237909110001E56E /* iPhone6.plist */,
-				8489C755237909110001E56E /* IPAddress.c */,
-				8489C756237909110001E56E /* LocationUtils.m */,
-				8489C757237909110001E56E /* ALHardware.m */,
-				8489C758237909110001E56E /* UIDevice+IdentifierAddition.h */,
-				8489C759237909110001E56E /* iPhone5.plist */,
-				8489C75A237909110001E56E /* AirPlayUtils.h */,
-				8489C75B237909110001E56E /* SystemUtilities.m */,
-				8489C75C237909110001E56E /* BonjourUtils.h */,
-				8489C75D237909110001E56E /* iPhone6Plus.plist */,
-			);
-			path = SystemUtilities;
-			sourceTree = "<group>";
-		};
 		84DB40B72378F50700841468 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -396,7 +294,6 @@
 		84DB40C52378F9E400841468 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				8489C739237909100001E56E /* SystemUtilities */,
 				84DB41682378FCE000841468 /* SystemMonitor */,
 			);
 			path = Library;
@@ -649,6 +546,23 @@
 			path = GeneralCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		84ED17BA2379188A0061858B /* Battery */ = {
+			isa = PBXGroup;
+			children = (
+				84ED17BB237918930061858B /* BatteryTableViewCell */,
+			);
+			path = Battery;
+			sourceTree = "<group>";
+		};
+		84ED17BB237918930061858B /* BatteryTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				84ED17BC237918A90061858B /* BatteryTableViewCell.swift */,
+				84ED17BD237918A90061858B /* BatteryTableViewCell.xib */,
+			);
+			path = BatteryTableViewCell;
+			sourceTree = "<group>";
+		};
 		DB9BE0832378636000DCBAAB = {
 			isa = PBXGroup;
 			children = (
@@ -774,6 +688,7 @@
 		DB9BE15523786FB600DCBAAB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				84ED17BA2379188A0061858B /* Battery */,
 				84DB40BA2378F65A00841468 /* Home */,
 				DB9BE1592378706700DCBAAB /* HeaderView */,
 				DB9BE15623786FEA00DCBAAB /* BaseView */,
@@ -868,44 +783,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8489C768237909110001E56E /* iPadMini.plist in Resources */,
-				8489C772237909110001E56E /* iPhone6.plist in Resources */,
 				DB9BE09C2378636100DCBAAB /* LaunchScreen.storyboard in Resources */,
-				8489C776237909110001E56E /* iPhone5.plist in Resources */,
 				84DB41D12378FCE100841468 /* HockeySDKResources.bundle in Resources */,
-				8489C770237909110001E56E /* iPhone4s.plist in Resources */,
 				DB9BE0992378636100DCBAAB /* Assets.xcassets in Resources */,
-				8489C76C237909110001E56E /* iPad3.plist in Resources */,
-				8489C76F237909110001E56E /* iPhone5c.plist in Resources */,
 				84DB41CE2378FCE100841468 /* LICENSE in Resources */,
-				8489C778237909110001E56E /* iPhone6Plus.plist in Resources */,
 				DB9BE13F23786C3D00DCBAAB /* MemoryViewController.xib in Resources */,
 				DB9BE15D2378708A00DCBAAB /* HeaderView.xib in Resources */,
-				8489C763237909110001E56E /* iPad2.plist in Resources */,
 				84DB40BF2378F67C00841468 /* PieCollectionViewCell.xib in Resources */,
 				84DB40C42378F8DB00841468 /* CPUCollectionViewCell.xib in Resources */,
 				DB9BE15223786C9900DCBAAB /* GeneralViewController.xib in Resources */,
 				DB9BE14E23786C8A00DCBAAB /* NetworkViewController.xib in Resources */,
 				84DB41CF2378FCE100841468 /* CHANGELOG in Resources */,
-				8489C766237909110001E56E /* country_codes.txt in Resources */,
-				8489C771237909110001E56E /* iPhone3Gs.plist in Resources */,
-				8489C75E237909110001E56E /* iPhone5s.plist in Resources */,
 				84DB41F72379004500841468 /* GeneralCollectionViewCell.xib in Resources */,
-				8489C76A237909110001E56E /* iPodTouch3.plist in Resources */,
-				8489C762237909110001E56E /* iPodTouch4.plist in Resources */,
 				8489C731237902420001E56E /* GeneralTableViewCell.xib in Resources */,
-				8489C765237909110001E56E /* iPodTouch5.plist in Resources */,
 				84DB41E52378FCE100841468 /* GLBubbleEffect.fsh in Resources */,
 				DB9BE13A23786C2600DCBAAB /* BatteryViewController.xib in Resources */,
-				8489C76E237909110001E56E /* iPadAir.plist in Resources */,
+				84ED17BF237918A90061858B /* BatteryTableViewCell.xib in Resources */,
 				DB9BE14923786C7200DCBAAB /* CPUViewController.xib in Resources */,
-				8489C75F237909110001E56E /* iPad4.plist in Resources */,
 				84DB41E42378FCE100841468 /* GLBubbleEffect.vsh in Resources */,
 				DB9BE1342378660400DCBAAB /* HomeViewController.xib in Resources */,
-				8489C764237909110001E56E /* iPadMiniRetina.plist in Resources */,
 				84DB41D22378FCE100841468 /* HockeySDK.xcconfig in Resources */,
 				DB9BE14423786C5900DCBAAB /* DiskViewController.xib in Resources */,
-				8489C76D237909110001E56E /* iPhone4.plist in Resources */,
 				84DB41D02378FCE100841468 /* de.bitstadium.HockeySDK-iOS-3.5.0.docset in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -964,14 +862,11 @@
 				84DB41E82378FCE100841468 /* AMUtils.m in Sources */,
 				84DB41E02378FCE100841468 /* GLDataLine.m in Sources */,
 				84DB40B92378F50700841468 /* UIView+Extension.swift in Sources */,
-				8489C773237909110001E56E /* IPAddress.c in Sources */,
 				84DB41E62378FCE100841468 /* GLBubbleEffect.m in Sources */,
-				8489C761237909110001E56E /* UIDevice+Resolutions.m in Sources */,
 				84DB41EF2378FCE100841468 /* RAMUsage.m in Sources */,
 				84DB41CB2378FCE100841468 /* DeviceSpecificUI.m in Sources */,
 				DB9BE1332378660400DCBAAB /* HomeViewController.swift in Sources */,
 				84DB41D52378FCE100841468 /* CPUInfoController.m in Sources */,
-				8489C769237909110001E56E /* BonjourUtils.m in Sources */,
 				84DB41E22378FCE100841468 /* GLEffect.m in Sources */,
 				84DB41D72378FCE100841468 /* CPUInfo.m in Sources */,
 				84DB40BE2378F67C00841468 /* PieCollectionViewCell.swift in Sources */,
@@ -989,33 +884,28 @@
 				84DB41DF2378FCE100841468 /* StorageInfoController.m in Sources */,
 				84DB41DB2378FCE100841468 /* NetworkBandwidth.m in Sources */,
 				84DB41CA2378FCE100841468 /* HardcodedDeviceData.m in Sources */,
+				84ED17BE237918A90061858B /* BatteryTableViewCell.swift in Sources */,
 				84DB41DA2378FCE100841468 /* NetworkInfo.m in Sources */,
 				84DB41DE2378FCE100841468 /* StorageInfo.m in Sources */,
 				84DB41E12378FCE100841468 /* GLLineGraph.m in Sources */,
 				DB9BE15F2378747700DCBAAB /* BaseViewController.swift in Sources */,
 				84DB41F62379004500841468 /* GeneralCollectionViewCell.swift in Sources */,
-				8489C775237909110001E56E /* ALHardware.m in Sources */,
 				84DB41EB2378FCE100841468 /* AMLogger.m in Sources */,
 				84DB41EA2378FCE100841468 /* DeviceInfo.m in Sources */,
-				8489C76B237909110001E56E /* AirPlayUtils.m in Sources */,
 				8489C730237902420001E56E /* GeneralTableViewCell.swift in Sources */,
 				8489C7382379047B0001E56E /* Constant.swift in Sources */,
 				84DB41F22378FCE100841468 /* ProcessInfoController.m in Sources */,
 				84DB41E72378FCE100841468 /* GLTube.m in Sources */,
 				84DB41DC2378FCE100841468 /* SystemMonitor.m in Sources */,
 				DB9BE0902378636000DCBAAB /* AppDelegate.swift in Sources */,
-				8489C777237909110001E56E /* SystemUtilities.m in Sources */,
 				DB9BE14D23786C8A00DCBAAB /* NetworkViewController.swift in Sources */,
 				84DB41E92378FCE100841468 /* DeviceInfoController.m in Sources */,
 				84DB41EC2378FCE100841468 /* BatteryInfo.m in Sources */,
 				84DB41F12378FCE100841468 /* ProcessInfo.m in Sources */,
 				DB9BE0922378636000DCBAAB /* SceneDelegate.swift in Sources */,
 				DB9BE13E23786C3D00DCBAAB /* MemoryViewController.swift in Sources */,
-				8489C774237909110001E56E /* LocationUtils.m in Sources */,
-				8489C760237909110001E56E /* NSString+MD5Addition.m in Sources */,
 				84DB41D92378FCE100841468 /* NetworkInfoController.m in Sources */,
 				DB9BE14823786C7200DCBAAB /* CPUViewController.swift in Sources */,
-				8489C767237909110001E56E /* UIDevice+IdentifierAddition.m in Sources */,
 				DB9BE1582378700000DCBAAB /* BaseView.swift in Sources */,
 				8489C735237903CA0001E56E /* UITable+Extension.swift in Sources */,
 				84DB41CD2378FCE100841468 /* GPUInfoController.m in Sources */,

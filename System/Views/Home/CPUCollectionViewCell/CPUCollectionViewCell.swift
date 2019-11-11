@@ -23,7 +23,7 @@ class CPUCollectionViewCell: UICollectionViewCell, CPUInfoControllerDelegate {
         self.cpuUsageGLView?.isOpaque = false
         self.cpuUsageGLView?.backgroundColor = UIColor.clear
         
-        self.glGraph = GLLineGraph (
+        self.glGraph = GLLineGraph(
             glkView: self.cpuUsageGLView,
             dataLineCount: 1,
             fromValue: 0,
