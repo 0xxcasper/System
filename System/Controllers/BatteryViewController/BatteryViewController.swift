@@ -63,7 +63,7 @@ private extension BatteryViewController {
         
         let centerText = NSMutableAttributedString (string: title)
         centerText.setAttributes(
-            [NSAttributedString.Key.font: UIFont (name: "HelveticaNeue-Bold", size: 36)!,
+            [NSAttributedString.Key.font: UIFont (name: "HelveticaNeue-Bold", size: 28)!,
              NSAttributedString.Key.paragraphStyle: paragraphStyle,
              NSAttributedString.Key.foregroundColor: UIColor.white],
             range: NSMakeRange(0, title.count))

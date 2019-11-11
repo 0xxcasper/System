@@ -444,3 +444,14 @@ extension UIView {
         layer.addSublayer(shapeLayer)
     }
 }
+
+extension Double {
+    
+    func toBootTimeString() -> String {
+        let now = NSDate (timeIntervalSince1970: self)
+        let calendar = NSCalendar.current
+        let dateComponents = calendar.dateComponents([.year, .month, .day, .hour, .minute, .second], from: now as Date)
+        let dateString = String(format: "%04ld-%02ld-%02ld %ld:%02ld:%02ld", dateComponents.year! , dateComponents.month!, dateComponents.day!, dateComponents.hour!, dateComponents.minute!, dateComponents.second!)
+        return dateString
+    }
+}

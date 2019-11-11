@@ -23,6 +23,8 @@ class GeneralCollectionViewCell: UICollectionViewCell, UITableViewDataSource, UI
         tbView.registerXibFile(GeneralTableViewCell.self)
         tbView.dataSource = self
         tbView.delegate = self
+        tbView.allowsSelection = false
+        tbView.isScrollEnabled = false
     }
 
     // MARK: - UITableViewDelegate & DataSource

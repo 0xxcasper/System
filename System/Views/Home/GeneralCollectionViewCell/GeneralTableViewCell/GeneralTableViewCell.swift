@@ -23,4 +23,8 @@ class GeneralTableViewCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    override func layoutSubviews() {
+        super.layoutSubviews()
+        self.selectionStyle = .none
+    }
 }

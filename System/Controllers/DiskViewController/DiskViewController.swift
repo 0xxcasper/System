@@ -38,7 +38,7 @@ class DiskViewController: BaseViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.drawPieChart()
-        getStorageInfo()
+        self.getStorageInfo()
     }
     
     override func viewDidAppear(_ animated: Bool) {
