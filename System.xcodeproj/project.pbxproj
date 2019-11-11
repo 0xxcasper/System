@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8456DF7123799BD5000321CE /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF6123799BD2000321CE /* UIDevice+IdentifierAddition.m */; };
+		8456DF7223799BD5000321CE /* SystemUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF6323799BD2000321CE /* SystemUtilities.m */; };
+		8456DF7323799BD5000321CE /* AirPlayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF6523799BD3000321CE /* AirPlayUtils.m */; };
+		8456DF7423799BD5000321CE /* UIDevice+Resolutions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF6B23799BD3000321CE /* UIDevice+Resolutions.m */; };
+		8456DF7523799BD5000321CE /* BonjourUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF6D23799BD4000321CE /* BonjourUtils.m */; };
+		8456DF7623799BD5000321CE /* LocationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF6E23799BD4000321CE /* LocationUtils.m */; };
+		8456DF7723799BD5000321CE /* ALHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF6F23799BD4000321CE /* ALHardware.m */; };
+		8456DF7823799BD5000321CE /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF7023799BD4000321CE /* NSString+MD5Addition.m */; };
+		8456DF7B23799BDF000321CE /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF7A23799BDF000321CE /* IPAddress.c */; };
 		8465F52E23796276007FCBDA /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465F52D23796276007FCBDA /* NetworkHelper.swift */; };
-		8465F59523796538007FCBDA /* ALHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465F57323796536007FCBDA /* ALHardware.m */; };
-		8465F59923796538007FCBDA /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 8465F57723796536007FCBDA /* IPAddress.c */; };
-		8465F59B23796538007FCBDA /* AirPlayUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465F57A23796536007FCBDA /* AirPlayUtils.m */; };
-		8465F59E23796538007FCBDA /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465F57E23796536007FCBDA /* NSString+MD5Addition.m */; };
-		8465F5A423796538007FCBDA /* SystemUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465F58623796537007FCBDA /* SystemUtilities.m */; };
-		8465F5A523796538007FCBDA /* UIDevice+IdentifierAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465F58723796537007FCBDA /* UIDevice+IdentifierAddition.m */; };
-		8465F5A723796538007FCBDA /* UIDevice+Resolutions.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465F58923796537007FCBDA /* UIDevice+Resolutions.m */; };
-		8465F5A823796538007FCBDA /* BonjourUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465F58A23796537007FCBDA /* BonjourUtils.m */; };
-		8465F5A923796538007FCBDA /* LocationUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 8465F58B23796538007FCBDA /* LocationUtils.m */; };
 		8489C730237902420001E56E /* GeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489C72E237902420001E56E /* GeneralTableViewCell.swift */; };
 		8489C731237902420001E56E /* GeneralTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8489C72F237902420001E56E /* GeneralTableViewCell.xib */; };
 		8489C735237903CA0001E56E /* UITable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489C734237903CA0001E56E /* UITable+Extension.swift */; };
@@ -102,25 +102,25 @@
 /* Begin PBXFileReference section */
 		2DC07B821B01A997099F91E7 /* Pods_System.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_System.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E7B5DCBD2DEB8D6359D62FE /* Pods-System.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-System.release.xcconfig"; path = "Target Support Files/Pods-System/Pods-System.release.xcconfig"; sourceTree = "<group>"; };
+		8456DF6123799BD2000321CE /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
+		8456DF6223799BD2000321CE /* UIDevice+Resolutions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Resolutions.h"; sourceTree = "<group>"; };
+		8456DF6323799BD2000321CE /* SystemUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemUtilities.m; sourceTree = "<group>"; };
+		8456DF6423799BD3000321CE /* LocationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationUtils.h; sourceTree = "<group>"; };
+		8456DF6523799BD3000321CE /* AirPlayUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayUtils.m; sourceTree = "<group>"; };
+		8456DF6623799BD3000321CE /* ALHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALHardware.h; sourceTree = "<group>"; };
+		8456DF6723799BD3000321CE /* AirPlayUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayUtils.h; sourceTree = "<group>"; };
+		8456DF6823799BD3000321CE /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
+		8456DF6923799BD3000321CE /* SystemUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemUtilities.h; sourceTree = "<group>"; };
+		8456DF6A23799BD3000321CE /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
+		8456DF6B23799BD3000321CE /* UIDevice+Resolutions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Resolutions.m"; sourceTree = "<group>"; };
+		8456DF6C23799BD4000321CE /* BonjourUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourUtils.h; sourceTree = "<group>"; };
+		8456DF6D23799BD4000321CE /* BonjourUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourUtils.m; sourceTree = "<group>"; };
+		8456DF6E23799BD4000321CE /* LocationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationUtils.m; sourceTree = "<group>"; };
+		8456DF6F23799BD4000321CE /* ALHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALHardware.m; sourceTree = "<group>"; };
+		8456DF7023799BD4000321CE /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
+		8456DF7923799BDF000321CE /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
+		8456DF7A23799BDF000321CE /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
 		8465F52D23796276007FCBDA /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
-		8465F57023796535007FCBDA /* LocationUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationUtils.h; sourceTree = "<group>"; };
-		8465F57223796536007FCBDA /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
-		8465F57323796536007FCBDA /* ALHardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALHardware.m; sourceTree = "<group>"; };
-		8465F57723796536007FCBDA /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
-		8465F57823796536007FCBDA /* ALHardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALHardware.h; sourceTree = "<group>"; };
-		8465F57A23796536007FCBDA /* AirPlayUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirPlayUtils.m; sourceTree = "<group>"; };
-		8465F57B23796536007FCBDA /* BonjourUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BonjourUtils.h; sourceTree = "<group>"; };
-		8465F57E23796536007FCBDA /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
-		8465F57F23796537007FCBDA /* SystemUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemUtilities.h; sourceTree = "<group>"; };
-		8465F58023796537007FCBDA /* UIDevice+IdentifierAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+IdentifierAddition.h"; sourceTree = "<group>"; };
-		8465F58623796537007FCBDA /* SystemUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemUtilities.m; sourceTree = "<group>"; };
-		8465F58723796537007FCBDA /* UIDevice+IdentifierAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+IdentifierAddition.m"; sourceTree = "<group>"; };
-		8465F58923796537007FCBDA /* UIDevice+Resolutions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+Resolutions.m"; sourceTree = "<group>"; };
-		8465F58A23796537007FCBDA /* BonjourUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BonjourUtils.m; sourceTree = "<group>"; };
-		8465F58B23796538007FCBDA /* LocationUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationUtils.m; sourceTree = "<group>"; };
-		8465F58D23796538007FCBDA /* AirPlayUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirPlayUtils.h; sourceTree = "<group>"; };
-		8465F59123796538007FCBDA /* NSString+MD5Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5Addition.h"; sourceTree = "<group>"; };
-		8465F59223796538007FCBDA /* UIDevice+Resolutions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+Resolutions.h"; sourceTree = "<group>"; };
 		8489C72E237902420001E56E /* GeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTableViewCell.swift; sourceTree = "<group>"; };
 		8489C72F237902420001E56E /* GeneralTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneralTableViewCell.xib; sourceTree = "<group>"; };
 		8489C734237903CA0001E56E /* UITable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITable+Extension.swift"; sourceTree = "<group>"; };
@@ -268,38 +268,37 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		8456DF6023799B5E000321CE /* SystemUtility */ = {
+			isa = PBXGroup;
+			children = (
+				8456DF7A23799BDF000321CE /* IPAddress.c */,
+				8456DF7923799BDF000321CE /* IPAddress.h */,
+				8456DF6723799BD3000321CE /* AirPlayUtils.h */,
+				8456DF6523799BD3000321CE /* AirPlayUtils.m */,
+				8456DF6623799BD3000321CE /* ALHardware.h */,
+				8456DF6F23799BD4000321CE /* ALHardware.m */,
+				8456DF6C23799BD4000321CE /* BonjourUtils.h */,
+				8456DF6D23799BD4000321CE /* BonjourUtils.m */,
+				8456DF6423799BD3000321CE /* LocationUtils.h */,
+				8456DF6E23799BD4000321CE /* LocationUtils.m */,
+				8456DF6A23799BD3000321CE /* NSString+MD5Addition.h */,
+				8456DF7023799BD4000321CE /* NSString+MD5Addition.m */,
+				8456DF6923799BD3000321CE /* SystemUtilities.h */,
+				8456DF6323799BD2000321CE /* SystemUtilities.m */,
+				8456DF6823799BD3000321CE /* UIDevice+IdentifierAddition.h */,
+				8456DF6123799BD2000321CE /* UIDevice+IdentifierAddition.m */,
+				8456DF6223799BD2000321CE /* UIDevice+Resolutions.h */,
+				8456DF6B23799BD3000321CE /* UIDevice+Resolutions.m */,
+			);
+			path = SystemUtility;
+			sourceTree = "<group>";
+		};
 		8465F52C23796262007FCBDA /* Helper */ = {
 			isa = PBXGroup;
 			children = (
 				8465F52D23796276007FCBDA /* NetworkHelper.swift */,
 			);
 			path = Helper;
-			sourceTree = "<group>";
-		};
-		8465F52F2379645E007FCBDA /* SystemUtilities */ = {
-			isa = PBXGroup;
-			children = (
-				8465F58D23796538007FCBDA /* AirPlayUtils.h */,
-				8465F57A23796536007FCBDA /* AirPlayUtils.m */,
-				8465F57823796536007FCBDA /* ALHardware.h */,
-				8465F57323796536007FCBDA /* ALHardware.m */,
-				8465F57B23796536007FCBDA /* BonjourUtils.h */,
-				8465F58A23796537007FCBDA /* BonjourUtils.m */,
-				8465F57723796536007FCBDA /* IPAddress.c */,
-				8465F57223796536007FCBDA /* IPAddress.h */,
-				8465F57023796535007FCBDA /* LocationUtils.h */,
-				8465F58B23796538007FCBDA /* LocationUtils.m */,
-				8465F59123796538007FCBDA /* NSString+MD5Addition.h */,
-				8465F57E23796536007FCBDA /* NSString+MD5Addition.m */,
-				8465F57F23796537007FCBDA /* SystemUtilities.h */,
-				8465F58623796537007FCBDA /* SystemUtilities.m */,
-				8465F58023796537007FCBDA /* UIDevice+IdentifierAddition.h */,
-				8465F58723796537007FCBDA /* UIDevice+IdentifierAddition.m */,
-				8465F59223796538007FCBDA /* UIDevice+Resolutions.h */,
-				8465F58923796537007FCBDA /* UIDevice+Resolutions.m */,
-			);
-			name = SystemUtilities;
-			path = "../../../ChartApp/System Utilities/System Utilities/Library/SystemUtilities";
 			sourceTree = "<group>";
 		};
 		8489C72D237902150001E56E /* GeneralTableViewCell */ = {
@@ -377,7 +376,7 @@
 		84DB40C52378F9E400841468 /* Library */ = {
 			isa = PBXGroup;
 			children = (
-				8465F52F2379645E007FCBDA /* SystemUtilities */,
+				8456DF6023799B5E000321CE /* SystemUtility */,
 				84DB41682378FCE000841468 /* SystemMonitor */,
 			);
 			path = Library;
@@ -928,12 +927,11 @@
 			files = (
 				84DB41D42378FCE100841468 /* CPULoad.m in Sources */,
 				DB9BE14323786C5900DCBAAB /* DiskViewController.swift in Sources */,
-				8465F5A523796538007FCBDA /* UIDevice+IdentifierAddition.m in Sources */,
 				8465F52E23796276007FCBDA /* NetworkHelper.swift in Sources */,
 				84DB41E82378FCE100841468 /* AMUtils.m in Sources */,
 				84DB41E02378FCE100841468 /* GLDataLine.m in Sources */,
+				8456DF7223799BD5000321CE /* SystemUtilities.m in Sources */,
 				84DB40B92378F50700841468 /* UIView+Extension.swift in Sources */,
-				8465F59923796538007FCBDA /* IPAddress.c in Sources */,
 				84DB41E62378FCE100841468 /* GLBubbleEffect.m in Sources */,
 				84DB41EF2378FCE100841468 /* RAMUsage.m in Sources */,
 				84ED17C4237921DB0061858B /* MemoryTableViewCell.swift in Sources */,
@@ -943,14 +941,13 @@
 				84DB41E22378FCE100841468 /* GLEffect.m in Sources */,
 				84DB41D72378FCE100841468 /* CPUInfo.m in Sources */,
 				84DB40BE2378F67C00841468 /* PieCollectionViewCell.swift in Sources */,
+				8456DF7623799BD5000321CE /* LocationUtils.m in Sources */,
+				8456DF7B23799BDF000321CE /* IPAddress.c in Sources */,
 				DB9BE15123786C9900DCBAAB /* GeneralViewController.swift in Sources */,
 				84DB41ED2378FCE100841468 /* BatteryInfoController.m in Sources */,
 				84DB41E32378FCE100841468 /* GLCommon.m in Sources */,
-				8465F5A823796538007FCBDA /* BonjourUtils.m in Sources */,
 				84DB41D82378FCE100841468 /* ActiveConnection.m in Sources */,
 				DB9BE13923786C2600DCBAAB /* BatteryViewController.swift in Sources */,
-				8465F59523796538007FCBDA /* ALHardware.m in Sources */,
-				8465F5A923796538007FCBDA /* LocationUtils.m in Sources */,
 				DB9BE15B2378708000DCBAAB /* HeaderView.swift in Sources */,
 				84DB41F02378FCE100841468 /* RAMInfoController.m in Sources */,
 				84DB41CC2378FCE100841468 /* GPUInfo.m in Sources */,
@@ -960,17 +957,19 @@
 				84DB41DF2378FCE100841468 /* StorageInfoController.m in Sources */,
 				84DB41DB2378FCE100841468 /* NetworkBandwidth.m in Sources */,
 				84DB41CA2378FCE100841468 /* HardcodedDeviceData.m in Sources */,
-				8465F5A423796538007FCBDA /* SystemUtilities.m in Sources */,
-				8465F5A723796538007FCBDA /* UIDevice+Resolutions.m in Sources */,
 				84ED17BE237918A90061858B /* BatteryTableViewCell.swift in Sources */,
 				84DB41DA2378FCE100841468 /* NetworkInfo.m in Sources */,
 				84DB41DE2378FCE100841468 /* StorageInfo.m in Sources */,
 				84DB41E12378FCE100841468 /* GLLineGraph.m in Sources */,
 				DB9BE15F2378747700DCBAAB /* BaseViewController.swift in Sources */,
-				8465F59B23796538007FCBDA /* AirPlayUtils.m in Sources */,
 				84DB41F62379004500841468 /* GeneralCollectionViewCell.swift in Sources */,
+				8456DF7323799BD5000321CE /* AirPlayUtils.m in Sources */,
+				8456DF7723799BD5000321CE /* ALHardware.m in Sources */,
+				8456DF7823799BD5000321CE /* NSString+MD5Addition.m in Sources */,
+				8456DF7523799BD5000321CE /* BonjourUtils.m in Sources */,
 				84DB41EB2378FCE100841468 /* AMLogger.m in Sources */,
 				84DB41EA2378FCE100841468 /* DeviceInfo.m in Sources */,
+				8456DF7423799BD5000321CE /* UIDevice+Resolutions.m in Sources */,
 				8489C730237902420001E56E /* GeneralTableViewCell.swift in Sources */,
 				8489C7382379047B0001E56E /* Constant.swift in Sources */,
 				84DB41F22378FCE100841468 /* ProcessInfoController.m in Sources */,
@@ -984,9 +983,9 @@
 				DB9BE13E23786C3D00DCBAAB /* MemoryViewController.swift in Sources */,
 				84DB41D92378FCE100841468 /* NetworkInfoController.m in Sources */,
 				DB9BE14823786C7200DCBAAB /* CPUViewController.swift in Sources */,
+				8456DF7123799BD5000321CE /* UIDevice+IdentifierAddition.m in Sources */,
 				DB9BE1582378700000DCBAAB /* BaseView.swift in Sources */,
 				8489C735237903CA0001E56E /* UITable+Extension.swift in Sources */,
-				8465F59E23796538007FCBDA /* NSString+MD5Addition.m in Sources */,
 				84DB41CD2378FCE100841468 /* GPUInfoController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
