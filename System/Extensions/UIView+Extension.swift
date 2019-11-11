@@ -2,8 +2,8 @@
 //  UIView+Extension.swift
 //  System Utilities
 //
-//  Created by admin on 05/11/2019.
-//  Copyright © 2019 nhan nguyen. All rights reserved.
+//  Created by admin on 11/11/2019.
+//  Copyright © 2019 nxsang063@gmail.com. All rights reserved.
 //
 
 import UIKit

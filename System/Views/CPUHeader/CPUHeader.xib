@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CPUHeader" customModule="System" customModuleProvider="target">
+            <connections>
+                <outlet property="ViewGradient" destination="hPv-PI-A1D" id="QTy-Ut-esc"/>
+                <outlet property="cpuUsageGLView" destination="Veo-7I-C3c" id="Ufc-Bz-frd"/>
+                <outlet property="subTitleLabel" destination="Hzi-sg-52n" id="bmE-Ie-ihV"/>
+                <outlet property="titleLabel" destination="N7M-3s-h9K" id="Sw6-3a-pAR"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="383" height="369"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hPv-PI-A1D">
+                    <rect key="frame" x="0.0" y="0.0" width="383" height="369"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total CPU uses:  27%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hzi-sg-52n">
+                            <rect key="frame" x="118.5" y="73" width="146" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="DfU-je-K3y"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="0.71372549019999998" green="0.72156862749999995" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total running Processes:  2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="N7M-3s-h9K">
+                            <rect key="frame" x="75.5" y="42" width="232" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="31" id="CJe-xb-jdt"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Veo-7I-C3c" customClass="GLKView">
+                            <rect key="frame" x="0.0" y="97" width="383" height="272"/>
+                            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" red="0.45098039220000002" green="0.4431372549" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstItem="N7M-3s-h9K" firstAttribute="centerX" secondItem="hPv-PI-A1D" secondAttribute="centerX" id="1eD-6w-bpX"/>
+                        <constraint firstAttribute="trailing" secondItem="Veo-7I-C3c" secondAttribute="trailing" id="Tm4-jl-hdj"/>
+                        <constraint firstAttribute="bottom" secondItem="Veo-7I-C3c" secondAttribute="bottom" id="apo-oe-TLA"/>
+                        <constraint firstItem="N7M-3s-h9K" firstAttribute="top" secondItem="hPv-PI-A1D" secondAttribute="top" constant="42" id="bJa-he-3wZ"/>
+                        <constraint firstItem="Hzi-sg-52n" firstAttribute="centerX" secondItem="hPv-PI-A1D" secondAttribute="centerX" id="bgU-cM-f6a"/>
+                        <constraint firstItem="Hzi-sg-52n" firstAttribute="top" secondItem="N7M-3s-h9K" secondAttribute="bottom" id="gut-BW-9FX"/>
+                        <constraint firstItem="Veo-7I-C3c" firstAttribute="leading" secondItem="hPv-PI-A1D" secondAttribute="leading" id="il9-vo-vEU"/>
+                        <constraint firstItem="Veo-7I-C3c" firstAttribute="top" secondItem="Hzi-sg-52n" secondAttribute="bottom" constant="3" id="uAk-FT-dqK"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="hPv-PI-A1D" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Pn3-UO-eDv"/>
+                <constraint firstItem="hPv-PI-A1D" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="S3I-6E-ygO"/>
+                <constraint firstItem="hPv-PI-A1D" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="WwY-lY-HA0"/>
+                <constraint firstItem="hPv-PI-A1D" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="YvI-QS-jXq"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <point key="canvasLocation" x="115.21739130434783" y="-43.861607142857139"/>
+        </view>
+    </objects>
+</document>
