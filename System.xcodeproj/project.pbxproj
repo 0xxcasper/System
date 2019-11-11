@@ -66,7 +66,6 @@
 		84ED17C4237921DB0061858B /* MemoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED17C2237921DB0061858B /* MemoryTableViewCell.swift */; };
 		84ED17C5237921DB0061858B /* MemoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ED17C3237921DB0061858B /* MemoryTableViewCell.xib */; };
 		DB9BE0902378636000DCBAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE08F2378636000DCBAAB /* AppDelegate.swift */; };
-		DB9BE0922378636000DCBAAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE0912378636000DCBAAB /* SceneDelegate.swift */; };
 		DB9BE0992378636100DCBAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE0982378636100DCBAAB /* Assets.xcassets */; };
 		DB9BE09C2378636100DCBAAB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE09A2378636100DCBAAB /* LaunchScreen.storyboard */; };
 		DB9BE1332378660400DCBAAB /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE1312378660400DCBAAB /* HomeViewController.swift */; };
@@ -191,7 +190,6 @@
 		AD91E4B71392B17B67D8DAA2 /* Pods-System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-System.debug.xcconfig"; path = "Target Support Files/Pods-System/Pods-System.debug.xcconfig"; sourceTree = "<group>"; };
 		DB9BE08C2378636000DCBAAB /* System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = System.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9BE08F2378636000DCBAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DB9BE0912378636000DCBAAB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		DB9BE0982378636100DCBAAB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DB9BE09B2378636100DCBAAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DB9BE09D2378636100DCBAAB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -590,7 +588,6 @@
 			isa = PBXGroup;
 			children = (
 				DB9BE08F2378636000DCBAAB /* AppDelegate.swift */,
-				DB9BE0912378636000DCBAAB /* SceneDelegate.swift */,
 				8489C7362379044B0001E56E /* Constant */,
 				84DB40C52378F9E400841468 /* Library */,
 				84DB40B72378F50700841468 /* Extensions */,
@@ -910,7 +907,6 @@
 				84DB41E92378FCE100841468 /* DeviceInfoController.m in Sources */,
 				84DB41EC2378FCE100841468 /* BatteryInfo.m in Sources */,
 				84DB41F12378FCE100841468 /* ProcessInfo.m in Sources */,
-				DB9BE0922378636000DCBAAB /* SceneDelegate.swift in Sources */,
 				DB9BE13E23786C3D00DCBAAB /* MemoryViewController.swift in Sources */,
 				84DB41D92378FCE100841468 /* NetworkInfoController.m in Sources */,
 				DB9BE14823786C7200DCBAAB /* CPUViewController.swift in Sources */,
@@ -1066,7 +1062,7 @@
 					"COCOAPODS=1",
 				);
 				INFOPLIST_FILE = System/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -1102,7 +1098,7 @@
 					"COCOAPODS=1",
 				);
 				INFOPLIST_FILE = System/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

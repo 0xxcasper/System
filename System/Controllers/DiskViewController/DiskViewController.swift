@@ -38,7 +38,7 @@ class DiskViewController: BaseViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
         self.drawPieChart()
-        self.getStorageInfo()
+        getStorageInfo()
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -88,7 +88,7 @@ private extension DiskViewController {
     
     func setUpTableView() {
         tbView.tableFooterView = UIView()
-        tbView.registerXibFile(GeneralTableViewCell.self)
+        tbView.registerXibFile(BatteryTableViewCell.self)
         tbView.rowHeight = 60
         tbView.dataSource = self
     }
@@ -115,7 +115,7 @@ extension DiskViewController: UITableViewDataSource, StorageInfoControllerDelega
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = self.tbView.dequeueTableCell(GeneralTableViewCell.self)
+        let cell = self.tbView.dequeueTableCell(BatteryTableViewCell.self)
         switch indexPath.row {
         case 0:
             cell.lblTitle.text = "Number of Songs"
@@ -123,8 +123,7 @@ extension DiskViewController: UITableViewDataSource, StorageInfoControllerDelega
             break
         case 1:
             cell.lblTitle.text = "Number of Pictures"
-            cell.lblDetail.text = String(format: "%lu (%@)", self.storageInfo!.pictureCount,
-                    AMUtils.toNearestMetric(self.storageInfo!.totalPictureSize, desiredFraction: 1))
+            cell.lblDetail.text = String(format: "%lu (%@)", self.storageInfo!.pictureCount,                    AMUtils.toNearestMetric(self.storageInfo!.totalPictureSize, desiredFraction: 1))
             break
         case 2:
             cell.lblTitle.text = "Number of Videos"
