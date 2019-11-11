@@ -10,7 +10,7 @@ import UIKit
 
 class BaseViewController: UIViewController {
 
-    var backButton: UIButton! = UIButton(frame: CGRect(x: 10, y: ScreenSize.Height >= 812 ? CGFloat(25) : CGFloat(20), width: 50, height: 44))
+    var backButton: UIButton! = UIButton(frame: CGRect(x: 10, y: ScreenSize.Height >= 812 ? CGFloat(30) : CGFloat(20), width: 50, height: 44))
     
     override func viewDidLoad() {
         super.viewDidLoad()
