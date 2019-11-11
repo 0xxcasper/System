@@ -37,6 +37,9 @@ class DiskViewController: BaseViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        SVProgressHUD.setDefaultStyle(.custom)
+        SVProgressHUD.setDefaultMaskType(.custom)
+        SVProgressHUD.setBackgroundLayerColor(UIColor(white: 0, alpha: 0.4))
         SVProgressHUD.show(withStatus: "updating")
         self.drawPieChart()
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
