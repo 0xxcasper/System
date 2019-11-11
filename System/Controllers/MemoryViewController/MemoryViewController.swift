@@ -34,6 +34,7 @@ class MemoryViewController: BaseViewController {
                           String(format: "%.0f MB",SystemValue.freeMemoryinRaw)]
 
     // MARK: - ViewController LifeCycle
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         setUpView()
