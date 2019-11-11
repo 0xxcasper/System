@@ -12,11 +12,15 @@ class GeneralViewController: UIViewController {
 
     @IBOutlet weak var tbView: UITableView!
     
-    private let gererals = ["Owner Name", "Device", "Model", "Device OS", "Boot Time", "OS Build", "OS Revision", "Carrier Name", "Language"]
+    private let gererals = ["Owner Name", "Device", "Model", "Device OS", "Boot Time", "OS Build", "OS Revision", "Kernal" ,"Carrier Name", "Language"]
     private let valueGererals = [SystemValue.systemName, SystemValue.systemDeviceTypeNotFormatted,                                       SystemValue.deviceModel, SystemValue.systemsVersion,
-                                 Double(SystemMonitor.deviceInfo().bootTime).toBootTimeString(), SystemMonitor.deviceInfo().osBuild,String(format: "%d", SystemMonitor.deviceInfo().osRevision), SystemValue.carrierName, SystemValue.language]
+                                 Double(SystemMonitor.deviceInfo().bootTime).toBootTimeString(),
+                                 SystemMonitor.deviceInfo().osBuild,
+                                 String(format: "%d", SystemMonitor.deviceInfo().osRevision),
+                                 SystemMonitor.deviceInfo().kernelInfo,
+                                 SystemValue.carrierName, SystemValue.language]
 
-    private let hardwares = ["Has Siri", "Has TouchID", "Headphone Attached"]
+    private let hardwares = ["Camera", "Accessories Attached" ,"Headphone Attached", "Retina", "Retina HD"]
     private var valueHardwares = ["", "", ""]
     
     override func viewDidLoad() {
@@ -26,7 +30,11 @@ class GeneralViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        valueHardwares = ["YES" , "NO", SystemValue.headphonesAttached ? "YES" : "NO"]
+        valueHardwares = [ UIImagePickerController.isSourceTypeAvailable(.camera) ? "YES" : "NO",
+                           SystemValue.accessoriesAttached ? "YES" : "NO",
+                           SystemValue.headphonesAttached ? "YES" : "NO",
+                           SystemMonitor.deviceInfo().retina ? "YES" : "NO",
+                           SystemMonitor.deviceInfo().retinaHD ? "YES" : "NO",]
         setUpTableView()
     }
 }
