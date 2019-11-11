@@ -46,7 +46,7 @@ class HeaderView: BaseView {
         
         let l:Legend = self.chartView.legend
         l.enabled = false
-        self.chartView.animate(xAxisDuration: 1.4, yAxisDuration: 1.4, easingOption: ChartEasingOption.easeOutBack)
+        self.chartView.animate(xAxisDuration: 1.0, yAxisDuration: 1.0, easingOption: ChartEasingOption.easeOutBack)
         
         // Set data
         var dataEntries: Array<BarChartDataEntry> = Array()

@@ -16,6 +16,8 @@
 		8456DF7723799BD5000321CE /* ALHardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF6F23799BD4000321CE /* ALHardware.m */; };
 		8456DF7823799BD5000321CE /* NSString+MD5Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF7023799BD4000321CE /* NSString+MD5Addition.m */; };
 		8456DF7B23799BDF000321CE /* IPAddress.c in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF7A23799BDF000321CE /* IPAddress.c */; };
+		8456DF8023799DF7000321CE /* NetworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456DF7E23799DF7000321CE /* NetworkTableViewCell.swift */; };
+		8456DF8123799DF7000321CE /* NetworkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8456DF7F23799DF7000321CE /* NetworkTableViewCell.xib */; };
 		8465F52E23796276007FCBDA /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8465F52D23796276007FCBDA /* NetworkHelper.swift */; };
 		8489C730237902420001E56E /* GeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8489C72E237902420001E56E /* GeneralTableViewCell.swift */; };
 		8489C731237902420001E56E /* GeneralTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8489C72F237902420001E56E /* GeneralTableViewCell.xib */; };
@@ -120,6 +122,8 @@
 		8456DF7023799BD4000321CE /* NSString+MD5Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5Addition.m"; sourceTree = "<group>"; };
 		8456DF7923799BDF000321CE /* IPAddress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPAddress.h; sourceTree = "<group>"; };
 		8456DF7A23799BDF000321CE /* IPAddress.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = IPAddress.c; sourceTree = "<group>"; };
+		8456DF7E23799DF7000321CE /* NetworkTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTableViewCell.swift; sourceTree = "<group>"; };
+		8456DF7F23799DF7000321CE /* NetworkTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NetworkTableViewCell.xib; sourceTree = "<group>"; };
 		8465F52D23796276007FCBDA /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		8489C72E237902420001E56E /* GeneralTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralTableViewCell.swift; sourceTree = "<group>"; };
 		8489C72F237902420001E56E /* GeneralTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneralTableViewCell.xib; sourceTree = "<group>"; };
@@ -291,6 +295,15 @@
 				8456DF6B23799BD3000321CE /* UIDevice+Resolutions.m */,
 			);
 			path = SystemUtility;
+			sourceTree = "<group>";
+		};
+		8456DF7D23799DD8000321CE /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				8456DF7E23799DF7000321CE /* NetworkTableViewCell.swift */,
+				8456DF7F23799DF7000321CE /* NetworkTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		8465F52C23796262007FCBDA /* Helper */ = {
@@ -738,6 +751,7 @@
 		DB9BE14A23786C7D00DCBAAB /* NetworkViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8456DF7D23799DD8000321CE /* Cell */,
 				DB9BE14B23786C8A00DCBAAB /* NetworkViewController.swift */,
 				DB9BE14C23786C8A00DCBAAB /* NetworkViewController.xib */,
 			);
@@ -856,6 +870,7 @@
 				84DB41CE2378FCE100841468 /* LICENSE in Resources */,
 				DB9BE13F23786C3D00DCBAAB /* MemoryViewController.xib in Resources */,
 				84ED17C5237921DB0061858B /* MemoryTableViewCell.xib in Resources */,
+				8456DF8123799DF7000321CE /* NetworkTableViewCell.xib in Resources */,
 				DB9BE15D2378708A00DCBAAB /* HeaderView.xib in Resources */,
 				84DB40BF2378F67C00841468 /* PieCollectionViewCell.xib in Resources */,
 				84DB40C42378F8DB00841468 /* CPUCollectionViewCell.xib in Resources */,
@@ -977,6 +992,7 @@
 				84DB41DC2378FCE100841468 /* SystemMonitor.m in Sources */,
 				DB9BE0902378636000DCBAAB /* AppDelegate.swift in Sources */,
 				DB9BE14D23786C8A00DCBAAB /* NetworkViewController.swift in Sources */,
+				8456DF8023799DF7000321CE /* NetworkTableViewCell.swift in Sources */,
 				84DB41E92378FCE100841468 /* DeviceInfoController.m in Sources */,
 				84DB41EC2378FCE100841468 /* BatteryInfo.m in Sources */,
 				84DB41F12378FCE100841468 /* ProcessInfo.m in Sources */,

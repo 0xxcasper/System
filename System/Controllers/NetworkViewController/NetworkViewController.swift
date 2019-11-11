@@ -16,7 +16,18 @@ class NetworkViewController: BaseViewController {
     @IBOutlet weak var tbView: UITableView!
     @IBOutlet weak var vCircleWifi: UIView!
     @IBOutlet weak var vCircle3G: UIView!
-     
+    
+    // MARK: - Properties
+    private var dataWifi = ["MAC Address:", SystemValue.wiFiRouterAddress,
+                          "IP Address: " + (SystemValue.wiFiIPAddress ?? ""),
+                          "Data Send: " + NetworkHelper.shared.getWifiDataSend(),
+                          "Data Received: " + NetworkHelper.shared.getWifiDataReceived()]
+    
+    private var data3G = ["MAC Address:", SystemValue.currentIPAddress,
+                          "IP Address: " + (SystemValue.cellIPAddress ?? ""),
+                          "Data Send: " + NetworkHelper.shared.getWWANDataSend(),
+                          "Data Received: " + NetworkHelper.shared.getWWANDataReceived()]
+    
     // MARK: - ViewController LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -69,7 +80,14 @@ private extension NetworkViewController {
     }
     
     func setUpTableView() {
-        tbView.tableFooterView = UIView()
+         let foolterView = UIView()
+        foolterView.backgroundColor = self.tbView.backgroundColor
+        self.tbView.tableFooterView = foolterView
+        self.tbView.rowHeight = 44
+        self.tbView.registerXibFile(NetworkTableViewCell.self)
+        self.tbView.dataSource = self
+        self.tbView.separatorStyle = .none
+        self.tbView.isScrollEnabled = false
     }
     
     func drawPieChart() {
@@ -88,5 +106,21 @@ private extension NetworkViewController {
         let colors = [UIColor(red:0.55, green:0.68, blue:0.88, alpha:1),
                       UIColor(red:0.99, green:0.75, blue:0.33, alpha:1)]
         self.vHeader.drawPieData(values: values, colors: colors, enableCenterText: true)
+    }
+}
+
+// MARK: - UITableViewDelegate & DataSource
+
+extension NetworkViewController: UITableViewDataSource
+{
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return dataWifi.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = self.tbView.dequeueTableCell(NetworkTableViewCell.self)
+        cell.lblTitle.text = dataWifi[indexPath.row]
+        cell.lblSubTitle.text = data3G[indexPath.row]
+        return cell
     }
 }

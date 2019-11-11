@@ -37,8 +37,11 @@ class DiskViewController: BaseViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        SVProgressHUD.show(withStatus: "updating")
         self.drawPieChart()
-        self.getStorageInfo()
+        DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            self.getStorageInfo()
+        }
     }
     
     override func viewDidAppear(_ animated: Bool) {
@@ -69,15 +72,8 @@ class DiskViewController: BaseViewController {
 private extension DiskViewController {
     
     func getStorageInfo() {
-        DispatchQueue.global(qos: .background).async {
-            SystemMonitor.storageInfoCtrl().delegate = self
-            self.storageInfo = SystemMonitor.storageInfoCtrl().getStorageInfo()
-            if self.storageInfo!.totalPictureSize != 0 {
-                DispatchQueue.main.async {
-                    SVProgressHUD.show(withStatus: "updating")
-                }
-            }
-        }
+        SystemMonitor.storageInfoCtrl().delegate = self
+        self.storageInfo = SystemMonitor.storageInfoCtrl().getStorageInfo()
     }
     
     func setUpView() {
@@ -91,6 +87,7 @@ private extension DiskViewController {
         tbView.registerXibFile(BatteryTableViewCell.self)
         tbView.rowHeight = 60
         tbView.dataSource = self
+        tbView.isScrollEnabled = false
     }
     
     func drawPieChart() {

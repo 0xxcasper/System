@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,10 +29,10 @@
                     </constraints>
                 </view>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OqQ-8o-INP">
-                    <rect key="frame" x="0.0" y="230" width="414" height="110"/>
+                    <rect key="frame" x="0.0" y="230" width="414" height="100"/>
                     <subviews>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QDN-3k-GBx">
-                            <rect key="frame" x="215.5" y="2" width="190.5" height="106"/>
+                            <rect key="frame" x="215.5" y="2" width="190.5" height="96"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Free Space" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CfC-uA-umM">
                                     <rect key="frame" x="8" y="20" width="174.5" height="21"/>
@@ -60,7 +61,7 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0ww-yp-FgO">
-                            <rect key="frame" x="206.5" y="30" width="1" height="50"/>
+                            <rect key="frame" x="206.5" y="25" width="1" height="50"/>
                             <color key="backgroundColor" red="0.81960784310000001" green="0.81960784310000001" blue="0.81960784310000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <constraints>
                                 <constraint firstAttribute="width" constant="1" id="jKx-th-L7f"/>
@@ -68,7 +69,7 @@
                             </constraints>
                         </view>
                         <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="CI8-Vz-nK0">
-                            <rect key="frame" x="8" y="2" width="190.5" height="106"/>
+                            <rect key="frame" x="8" y="2" width="190.5" height="96"/>
                             <subviews>
                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Used Space" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xll-qC-J4C">
                                     <rect key="frame" x="8" y="20" width="174.5" height="21"/>
@@ -103,18 +104,18 @@
                         <constraint firstItem="0ww-yp-FgO" firstAttribute="centerX" secondItem="OqQ-8o-INP" secondAttribute="centerX" id="6Rd-VQ-fj8"/>
                         <constraint firstAttribute="trailing" secondItem="QDN-3k-GBx" secondAttribute="trailing" constant="8" id="Fe5-Qw-Gmp"/>
                         <constraint firstItem="QDN-3k-GBx" firstAttribute="centerY" secondItem="OqQ-8o-INP" secondAttribute="centerY" id="GYt-CS-k4b"/>
-                        <constraint firstAttribute="height" constant="110" id="PUb-Ib-emL"/>
+                        <constraint firstAttribute="height" constant="100" id="PUb-Ib-emL"/>
                         <constraint firstItem="CI8-Vz-nK0" firstAttribute="top" secondItem="OqQ-8o-INP" secondAttribute="top" constant="2" id="QAv-zE-bvx"/>
                         <constraint firstItem="CI8-Vz-nK0" firstAttribute="leading" secondItem="OqQ-8o-INP" secondAttribute="leading" constant="8" id="Uh9-zn-b13"/>
                         <constraint firstItem="QDN-3k-GBx" firstAttribute="top" secondItem="OqQ-8o-INP" secondAttribute="top" constant="2" id="bdU-KB-F5o"/>
                         <constraint firstItem="0ww-yp-FgO" firstAttribute="centerY" secondItem="OqQ-8o-INP" secondAttribute="centerY" id="kNn-rM-JX3"/>
                         <constraint firstItem="0ww-yp-FgO" firstAttribute="leading" secondItem="CI8-Vz-nK0" secondAttribute="trailing" constant="8" id="xDO-Oz-lcE"/>
                         <constraint firstItem="CI8-Vz-nK0" firstAttribute="centerY" secondItem="OqQ-8o-INP" secondAttribute="centerY" id="xae-d6-P3z"/>
-                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="110" id="ylO-xh-q5R"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="100" id="ylO-xh-q5R"/>
                     </constraints>
                 </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="duq-Cv-nLf">
-                    <rect key="frame" x="0.0" y="340" width="414" height="556"/>
+                    <rect key="frame" x="0.0" y="330" width="414" height="566"/>
                     <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                 </tableView>
             </subviews>
