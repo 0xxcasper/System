@@ -54,11 +54,7 @@ class GeneralCollectionViewCell: UICollectionViewCell, UITableViewDataSource, UI
             break
         case 3:
             cell.lblTitle.text = "Boot at:"
-            let now = NSDate(timeIntervalSince1970: Double(SystemMonitor.deviceInfo().bootTime))
-            let calendar = NSCalendar.current
-            let dateComponents = calendar.dateComponents([.year, .month, .day, .hour, .minute, .second], from: now as Date)
-            let dateString = String(format: "%04ld-%02ld-%02ld %ld:%02ld:%02ld", dateComponents.year!, dateComponents.month!, dateComponents.day!, dateComponents.hour!, dateComponents.minute!, dateComponents.second!)
-            cell.lblDetail.text = dateString
+            cell.lblDetail.text =  Double(SystemMonitor.deviceInfo().bootTime).toBootTimeString()
             break
         default:
             break

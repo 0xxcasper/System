@@ -106,21 +106,21 @@ extension HomeViewController: UICollectionViewDataSource, UICollectionViewDelega
             if SystemValue.connectedToCellNetwork == true { title = "3G" }
             if SystemValue.connectedToWiFi == true { title = "Wifi" }
             
-//            let networkDataCounters: NSArray = SystemValue. SystemUtilities.getNetworkDataCounters()! as NSArray
-//            var wwanSent     =  (networkDataCounters[2] as! NSNumber).intValue
-//            var wwanReceived = (networkDataCounters[3] as! NSNumber).intValue
-//
-//            if SystemValue.connectedToWiFi == true {
-//                wwanSent     =  (networkDataCounters[0] as! NSNumber).intValue
-//                wwanReceived = (networkDataCounters[1] as! NSNumber).intValue
-//            }
-//            let wwanSentPercent = (wwanSent * 100)/(wwanSent + wwanReceived)
-//
-//            cell.setPieData(
-//                title: title,
-//                subTitle: "Internet",
-//                values: [Double(wwanSentPercent), Double(100 - wwanSentPercent)],
-//                colors: [grayColor, UIColor(red:0.99, green:0.75, blue:0.33, alpha:1)])
+            let networkDataCounters: NSArray = SystemUtilities.getNetworkDataCounters()! as NSArray
+            var wwanSent     = (networkDataCounters[2] as! NSNumber).intValue
+            var wwanReceived = (networkDataCounters[3] as! NSNumber).intValue
+
+            if SystemValue.connectedToWiFi == true {
+                wwanSent     =  (networkDataCounters[0] as! NSNumber).intValue
+                wwanReceived = (networkDataCounters[1] as! NSNumber).intValue
+            }
+            let wwanSentPercent = (wwanSent * 100)/(wwanSent + wwanReceived)
+
+            cell.setPieData(
+                title: title,
+                subTitle: "Internet",
+                values: [Double(wwanSentPercent), Double(100 - wwanSentPercent)],
+                colors: [grayColor, UIColor(red:0.99, green:0.75, blue:0.33, alpha:1)])
             break
         case HomeCellIndex.General.rawValue:
             return self.collectionView.dequeueCell(GeneralCollectionViewCell.self, indexPath: indexPath)

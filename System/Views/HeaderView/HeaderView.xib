@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
+        <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -24,11 +25,11 @@
                     <rect key="frame" x="0.0" y="0.0" width="466" height="230"/>
                     <subviews>
                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="weR-jx-ek7">
-                            <rect key="frame" x="50" y="199" width="366" height="21"/>
+                            <rect key="frame" x="30" y="199" width="406" height="21"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="21" id="jm7-oT-v9h"/>
                             </constraints>
-                            <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
                             <color key="textColor" red="0.78039215689999997" green="0.77647058820000003" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -49,13 +50,13 @@
                     <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="mRx-Vf-frS" firstAttribute="top" secondItem="J71-V2-fB1" secondAttribute="bottom" id="4q5-tU-qSZ"/>
-                        <constraint firstAttribute="trailing" secondItem="weR-jx-ek7" secondAttribute="trailing" constant="50" id="91u-Ih-Ypw"/>
                         <constraint firstItem="J71-V2-fB1" firstAttribute="centerX" secondItem="1sj-ZX-Sc5" secondAttribute="centerX" id="Zfg-ej-rY3"/>
+                        <constraint firstItem="weR-jx-ek7" firstAttribute="centerX" secondItem="1sj-ZX-Sc5" secondAttribute="centerX" id="eZF-S3-mq7"/>
                         <constraint firstAttribute="trailing" secondItem="mRx-Vf-frS" secondAttribute="trailing" constant="50" id="gha-Yl-ewl"/>
                         <constraint firstAttribute="bottom" secondItem="weR-jx-ek7" secondAttribute="bottom" constant="10" id="iPV-H2-XCz"/>
                         <constraint firstItem="mRx-Vf-frS" firstAttribute="leading" secondItem="1sj-ZX-Sc5" secondAttribute="leading" constant="50" id="iyW-EN-OoO"/>
                         <constraint firstItem="weR-jx-ek7" firstAttribute="top" secondItem="mRx-Vf-frS" secondAttribute="bottom" id="oxT-81-bR0"/>
-                        <constraint firstItem="weR-jx-ek7" firstAttribute="leading" secondItem="1sj-ZX-Sc5" secondAttribute="leading" constant="50" id="vKu-ft-1HS"/>
+                        <constraint firstItem="weR-jx-ek7" firstAttribute="leading" secondItem="1sj-ZX-Sc5" secondAttribute="leading" constant="30" id="vKu-ft-1HS"/>
                         <constraint firstAttribute="trailing" secondItem="J71-V2-fB1" secondAttribute="trailing" constant="65" id="wgH-Hf-4wK"/>
                         <constraint firstItem="J71-V2-fB1" firstAttribute="top" secondItem="1sj-ZX-Sc5" secondAttribute="top" constant="30" id="z4c-9i-SrI"/>
                     </constraints>
