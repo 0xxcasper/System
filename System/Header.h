@@ -10,5 +10,11 @@
 #define Header_h
 
 #import "SystemServices.h"
+#import "SystemMonitor.h"
+#import "SystemUtilities.h"
+
+#import <GLKit/GLKit.h>
+#import "GLLineGraph.h"
+#import "AMUtils.h"
 
 #endif /* Header_h */

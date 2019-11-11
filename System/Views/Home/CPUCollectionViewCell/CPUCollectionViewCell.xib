@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15509"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CPUCollectionViewCell" customModule="System" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="208" height="209"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="208" height="209"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Usage" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HuY-bW-zVG">
+                        <rect key="frame" x="8" y="5" width="192" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="qBx-NY-04d"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" red="0.25098039220000001" green="0.24313725489999999" blue="0.28627450980000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cTG-Lj-P05">
+                        <rect key="frame" x="0.0" y="179" width="208" height="30"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="CPU &amp; Processes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Br1-PK-adp">
+                                <rect key="frame" x="44" y="0.0" width="120" height="30"/>
+                                <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                <color key="textColor" red="0.58039215690000001" green="0.58039215690000001" blue="0.58039215690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92549019610000005" green="0.92549019610000005" blue="0.92549019610000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Br1-PK-adp" firstAttribute="centerY" secondItem="cTG-Lj-P05" secondAttribute="centerY" id="6hJ-wg-AlR"/>
+                            <constraint firstItem="Br1-PK-adp" firstAttribute="centerX" secondItem="cTG-Lj-P05" secondAttribute="centerX" id="CKZ-y7-8H9"/>
+                            <constraint firstAttribute="height" constant="30" id="z9J-A8-diu"/>
+                        </constraints>
+                    </view>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pgx-0o-Wj5" userLabel="containView" customClass="GLKView">
+                        <rect key="frame" x="8" y="26" width="192" height="153"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="Pgx-0o-Wj5" firstAttribute="trailing" secondItem="HuY-bW-zVG" secondAttribute="trailing" id="2lt-d6-kLF"/>
+                <constraint firstItem="HuY-bW-zVG" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="8" id="CvZ-u8-d0m"/>
+                <constraint firstItem="HuY-bW-zVG" firstAttribute="centerX" secondItem="ZTg-uK-7eu" secondAttribute="centerX" id="Fsh-X6-wcW"/>
+                <constraint firstAttribute="trailing" secondItem="cTG-Lj-P05" secondAttribute="trailing" id="L1D-GM-cJg"/>
+                <constraint firstItem="cTG-Lj-P05" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Oa0-uG-lVz"/>
+                <constraint firstItem="Pgx-0o-Wj5" firstAttribute="leading" secondItem="HuY-bW-zVG" secondAttribute="leading" id="Rpo-Lp-udp"/>
+                <constraint firstItem="Pgx-0o-Wj5" firstAttribute="top" secondItem="HuY-bW-zVG" secondAttribute="bottom" id="ejm-eZ-cNM"/>
+                <constraint firstAttribute="bottom" secondItem="cTG-Lj-P05" secondAttribute="bottom" id="jKn-LI-BhA"/>
+                <constraint firstItem="cTG-Lj-P05" firstAttribute="top" secondItem="Pgx-0o-Wj5" secondAttribute="bottom" id="tlh-Ak-ir9"/>
+                <constraint firstItem="HuY-bW-zVG" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="xf5-96-tX2"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="208" height="209"/>
+            <connections>
+                <outlet property="cpuUsageGLView" destination="Pgx-0o-Wj5" id="FvR-V5-Y7p"/>
+                <outlet property="lblTitle" destination="HuY-bW-zVG" id="0hL-Z5-BR4"/>
+            </connections>
+            <point key="canvasLocation" x="-67" y="73"/>
+        </collectionViewCell>
+    </objects>
+</document>

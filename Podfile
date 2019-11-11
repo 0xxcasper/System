@@ -8,5 +8,7 @@ target 'System' do
   # Pods for System
 pod 'SystemServices', '~> 2.0.1'
 pod 'Charts'
+pod 'iRate'
+pod 'SVProgressHUD'
 
 end

@@ -29,8 +29,16 @@ class HeaderView: BaseView {
         self.chartView.holeColor = UIColor.clear
     }
     
-    //Pase data vô ở đây. truyền tham số cần vào đây
-    private func drawData(values: [Double], colors: [UIColor]) {
+    func setTitleAndSubTitle( title: String, subTitle: String) {
+        titleLabel.text = title
+        subTitleLabel.text = subTitle
+    }
+    
+    func setColorViewGradient( colorTop: UIColor, colorBottom: UIColor) {
+        viewGradient.setGradientBackground(colorTop: colorTop, colorBottom: colorBottom)
+    }
+
+    func drawPieData(values: [Double], colors: [UIColor]) {
         self.chartView.usePercentValuesEnabled = true
         self.chartView.drawCenterTextEnabled = false
         self.chartView.rotationAngle = 90

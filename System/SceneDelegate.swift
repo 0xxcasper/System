@@ -20,6 +20,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let winScene = (scene as? UIWindowScene) else { return }
         
         let vc = HomeViewController()
+        vc.title = "System Utilities"
         let nc = UINavigationController(rootViewController: vc)
         let win = UIWindow(windowScene: winScene)
         win.rootViewController = nc
