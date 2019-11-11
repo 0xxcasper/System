@@ -63,6 +63,8 @@
 		84DB41F72379004500841468 /* GeneralCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DB41F52379004500841468 /* GeneralCollectionViewCell.xib */; };
 		84ED17BE237918A90061858B /* BatteryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED17BC237918A90061858B /* BatteryTableViewCell.swift */; };
 		84ED17BF237918A90061858B /* BatteryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ED17BD237918A90061858B /* BatteryTableViewCell.xib */; };
+		84ED17C4237921DB0061858B /* MemoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84ED17C2237921DB0061858B /* MemoryTableViewCell.swift */; };
+		84ED17C5237921DB0061858B /* MemoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84ED17C3237921DB0061858B /* MemoryTableViewCell.xib */; };
 		DB9BE0902378636000DCBAAB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE08F2378636000DCBAAB /* AppDelegate.swift */; };
 		DB9BE0922378636000DCBAAB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB9BE0912378636000DCBAAB /* SceneDelegate.swift */; };
 		DB9BE0992378636100DCBAAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB9BE0982378636100DCBAAB /* Assets.xcassets */; };
@@ -184,6 +186,8 @@
 		84DB41F52379004500841468 /* GeneralCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GeneralCollectionViewCell.xib; sourceTree = "<group>"; };
 		84ED17BC237918A90061858B /* BatteryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryTableViewCell.swift; sourceTree = "<group>"; };
 		84ED17BD237918A90061858B /* BatteryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BatteryTableViewCell.xib; sourceTree = "<group>"; };
+		84ED17C2237921DB0061858B /* MemoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryTableViewCell.swift; sourceTree = "<group>"; };
+		84ED17C3237921DB0061858B /* MemoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemoryTableViewCell.xib; sourceTree = "<group>"; };
 		AD91E4B71392B17B67D8DAA2 /* Pods-System.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-System.debug.xcconfig"; path = "Target Support Files/Pods-System/Pods-System.debug.xcconfig"; sourceTree = "<group>"; };
 		DB9BE08C2378636000DCBAAB /* System.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = System.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DB9BE08F2378636000DCBAAB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -252,6 +256,24 @@
 				8489C7372379047B0001E56E /* Constant.swift */,
 			);
 			path = Constant;
+			sourceTree = "<group>";
+		};
+		848CAE5B237936520017DEE2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84ED17C2237921DB0061858B /* MemoryTableViewCell.swift */,
+				84ED17C3237921DB0061858B /* MemoryTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		848CAE5C237936610017DEE2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84ED17BC237918A90061858B /* BatteryTableViewCell.swift */,
+				84ED17BD237918A90061858B /* BatteryTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		84DB40B72378F50700841468 /* Extensions */ = {
@@ -546,23 +568,6 @@
 			path = GeneralCollectionViewCell;
 			sourceTree = "<group>";
 		};
-		84ED17BA2379188A0061858B /* Battery */ = {
-			isa = PBXGroup;
-			children = (
-				84ED17BB237918930061858B /* BatteryTableViewCell */,
-			);
-			path = Battery;
-			sourceTree = "<group>";
-		};
-		84ED17BB237918930061858B /* BatteryTableViewCell */ = {
-			isa = PBXGroup;
-			children = (
-				84ED17BC237918A90061858B /* BatteryTableViewCell.swift */,
-				84ED17BD237918A90061858B /* BatteryTableViewCell.xib */,
-			);
-			path = BatteryTableViewCell;
-			sourceTree = "<group>";
-		};
 		DB9BE0832378636000DCBAAB = {
 			isa = PBXGroup;
 			children = (
@@ -634,6 +639,7 @@
 		DB9BE13623786C1700DCBAAB /* BatteryViewController */ = {
 			isa = PBXGroup;
 			children = (
+				848CAE5C237936610017DEE2 /* Cell */,
 				DB9BE13723786C2600DCBAAB /* BatteryViewController.swift */,
 				DB9BE13823786C2600DCBAAB /* BatteryViewController.xib */,
 			);
@@ -643,6 +649,7 @@
 		DB9BE13B23786C2E00DCBAAB /* MemoryViewController */ = {
 			isa = PBXGroup;
 			children = (
+				848CAE5B237936520017DEE2 /* Cell */,
 				DB9BE13C23786C3D00DCBAAB /* MemoryViewController.swift */,
 				DB9BE13D23786C3D00DCBAAB /* MemoryViewController.xib */,
 			);
@@ -688,7 +695,6 @@
 		DB9BE15523786FB600DCBAAB /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				84ED17BA2379188A0061858B /* Battery */,
 				84DB40BA2378F65A00841468 /* Home */,
 				DB9BE1592378706700DCBAAB /* HeaderView */,
 				DB9BE15623786FEA00DCBAAB /* BaseView */,
@@ -788,6 +794,7 @@
 				DB9BE0992378636100DCBAAB /* Assets.xcassets in Resources */,
 				84DB41CE2378FCE100841468 /* LICENSE in Resources */,
 				DB9BE13F23786C3D00DCBAAB /* MemoryViewController.xib in Resources */,
+				84ED17C5237921DB0061858B /* MemoryTableViewCell.xib in Resources */,
 				DB9BE15D2378708A00DCBAAB /* HeaderView.xib in Resources */,
 				84DB40BF2378F67C00841468 /* PieCollectionViewCell.xib in Resources */,
 				84DB40C42378F8DB00841468 /* CPUCollectionViewCell.xib in Resources */,
@@ -864,6 +871,7 @@
 				84DB40B92378F50700841468 /* UIView+Extension.swift in Sources */,
 				84DB41E62378FCE100841468 /* GLBubbleEffect.m in Sources */,
 				84DB41EF2378FCE100841468 /* RAMUsage.m in Sources */,
+				84ED17C4237921DB0061858B /* MemoryTableViewCell.swift in Sources */,
 				84DB41CB2378FCE100841468 /* DeviceSpecificUI.m in Sources */,
 				DB9BE1332378660400DCBAAB /* HomeViewController.swift in Sources */,
 				84DB41D52378FCE100841468 /* CPUInfoController.m in Sources */,

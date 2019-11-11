@@ -9,9 +9,14 @@
 import UIKit
 
 class BatteryViewController: BaseViewController {
+    // MARK: - View Elements
     @IBOutlet weak var vHeader: HeaderView!
     @IBOutlet weak var tbView: UITableView!
     
+    // MARK: - Properties
+    private let titles = ["Battery Capacity","Battery Voltage","Battery Status","Battery Level"]
+
+    // MARK: - ViewController LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
         self.setUpView()
@@ -27,8 +32,13 @@ class BatteryViewController: BaseViewController {
         super.viewWillAppear(animated)
         self.drawPieChart()
     }
+}
+
+// MARK: - Private's Method
+
+private extension BatteryViewController {
     
-    private func setUpView() {
+    func setUpView() {
         var subTitle = ""
         if let info = SystemMonitor.batteryInfoCtrl().getBatteryInfo() {
             subTitle = String(format: "%ld mAh", info.capacity)
@@ -36,13 +46,14 @@ class BatteryViewController: BaseViewController {
         vHeader.setTitleAndSubTitle(title: "Capacity", subTitle: subTitle)
     }
     
-    private func setUpTableView() {
+    func setUpTableView() {
         tbView.tableFooterView = UIView()
         tbView.registerXibFile(BatteryTableViewCell.self)
+        tbView.rowHeight = 60
         tbView.dataSource = self
     }
     
-    private func drawPieChart() {
+    func drawPieChart() {
         let paragraphStyle = NSMutableParagraphStyle.default.mutableCopy() as! NSMutableParagraphStyle
         paragraphStyle.lineBreakMode = NSLineBreakMode.byTruncatingTail
         paragraphStyle.alignment = NSTextAlignment.center
@@ -71,31 +82,24 @@ class BatteryViewController: BaseViewController {
 extension BatteryViewController: UITableViewDataSource
 {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 4
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
+        return titles.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = self.tbView.dequeueTableCell(BatteryTableViewCell.self)
+        cell.lblTitle.text = titles[indexPath.row]
         if let info = SystemMonitor.batteryInfoCtrl().getBatteryInfo() {
             switch indexPath.row {
             case 0:
-                cell.lblTitle.text = "Battery Capacity"
                 cell.lblDetail.text = String(format: "%ld",info.capacity)
                 break
             case 1:
-                cell.lblTitle.text = "Battery Voltage"
                 cell.lblDetail.text = String (format: "%0.2f V", info.voltage)
                 break
             case 2:
-                cell.lblTitle.text = "Battery Status"
                 cell.lblDetail.text = info.status
                 break
             case 3:
-                cell.lblTitle.text = "Battery Level"
                 cell.lblDetail.text = String (format: "%0ld %% (%ld mAh)", info.levelPercent,
                     info.levelMAH)
                 break
