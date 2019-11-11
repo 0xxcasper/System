@@ -30,6 +30,12 @@ class HomeViewController: UIViewController {
         setUpCollectionView()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        self.collectionView.reloadData()
+        self.viewControllers = [BatteryViewController(), MemoryViewController(), CPUViewController(), DiskViewController(), NetworkViewController(), GeneralViewController()]
+    }
+    
     private func setUpCollectionView() {
         collectionView.registerCollectionCell(PieCollectionViewCell.self)
         collectionView.registerCollectionCell(CPUCollectionViewCell.self)
