@@ -43,7 +43,10 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews()
-        viewGradient.setGradientBackground(colorTop: UIColor(red:0.53, green:0.44, blue:0.76, alpha:1), colorBottom: UIColor(red:0.21, green:0.28, blue:0.52, alpha:1))
+        DispatchQueue.main.async {
+            self.viewGradient.setGradientBackground(colorTop: UIColor(red:0.53, green:0.44, blue:0.76, alpha:1), colorBottom: UIColor(red:0.21, green:0.28, blue:0.52, alpha:1))
+        }
+
     }
         
     func widgetPerformUpdate(completionHandler: (@escaping (NCUpdateResult) -> Void)) {
