@@ -31,7 +31,7 @@ class TodayViewController: UIViewController, NCWidgetProviding {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.extensionContext?.widgetLargestAvailableDisplayMode = .expanded
+        self.extensionContext?.widgetLargestAvailableDisplayMode = .compact
         self.setupPie()
         self.setUpTableView()
     }
@@ -93,10 +93,10 @@ private extension TodayViewController {
     }
     
     func setUpTableView() {
-        tbView.backgroundColor = .white
+//        tbView.backgroundColor = .white
         tbView.tableFooterView = UIView()
         tbView.register(UINib(nibName: "MemoryTableViewCell", bundle: nil), forCellReuseIdentifier: "Cell")
-        tbView.rowHeight = 60
+        tbView.rowHeight = 27.5
         tbView.dataSource = self
     }
     
