@@ -1,8 +1,8 @@
 //
 //  MemoryTableViewCell.swift
-//  System
+//  TodayExtension
 //
-//  Created by admin on 11/11/2019.
+//  Created by admin on 12/11/2019.
 //  Copyright © 2019 nxsang063@gmail.com. All rights reserved.
 //
 
@@ -37,4 +37,5 @@ class MemoryTableViewCell: UITableViewCell {
         super.layoutSubviews()
         self.selectionStyle = .none
     }
+    
 }

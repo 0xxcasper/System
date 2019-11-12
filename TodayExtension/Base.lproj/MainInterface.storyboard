@@ -13,27 +13,50 @@
             <objects>
                 <viewController id="M4Y-Lb-cyx" customClass="TodayViewController" customModule="System" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" simulatedAppContext="notificationCenter" id="S3S-Oj-5AN">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="290"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfl-jX-b4m" customClass="PieChartView" customModule="Charts">
-                                <rect key="frame" x="0.0" y="44" width="320" height="246"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="OZh-tI-SFB">
+                                <rect key="frame" x="0.0" y="44" width="320" height="200"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bfl-jX-b4m" customClass="PieChartView" customModule="Charts">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="200"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    </view>
+                                </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="Bfl-jX-b4m" firstAttribute="top" secondItem="OZh-tI-SFB" secondAttribute="top" id="WOd-7o-zMJ"/>
+                                    <constraint firstAttribute="height" constant="200" id="ZfP-kz-iW8"/>
+                                    <constraint firstItem="Bfl-jX-b4m" firstAttribute="leading" secondItem="OZh-tI-SFB" secondAttribute="leading" id="dzf-I4-YWh"/>
+                                    <constraint firstAttribute="trailing" secondItem="Bfl-jX-b4m" secondAttribute="trailing" id="gvZ-92-4FW"/>
+                                    <constraint firstAttribute="bottom" secondItem="Bfl-jX-b4m" secondAttribute="bottom" id="x6z-DL-676"/>
+                                </constraints>
                             </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="RqA-Zc-MCJ">
+                                <rect key="frame" x="0.0" y="244" width="320" height="356"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                            </tableView>
                         </subviews>
                         <constraints>
-                            <constraint firstItem="Bfl-jX-b4m" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" id="NWX-gh-8WR"/>
-                            <constraint firstItem="ssy-KU-ocm" firstAttribute="bottom" secondItem="Bfl-jX-b4m" secondAttribute="bottom" id="OlO-Hw-VYF"/>
-                            <constraint firstItem="Bfl-jX-b4m" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="gTt-0a-DBH"/>
-                            <constraint firstItem="ssy-KU-ocm" firstAttribute="trailing" secondItem="Bfl-jX-b4m" secondAttribute="trailing" id="l7T-5A-WV8"/>
+                            <constraint firstItem="OZh-tI-SFB" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="3jb-ou-1sb"/>
+                            <constraint firstItem="OZh-tI-SFB" firstAttribute="trailing" secondItem="ssy-KU-ocm" secondAttribute="trailing" id="Ccd-GU-jM5"/>
+                            <constraint firstItem="RqA-Zc-MCJ" firstAttribute="leading" secondItem="ssy-KU-ocm" secondAttribute="leading" id="WY6-Oa-6Hg"/>
+                            <constraint firstItem="RqA-Zc-MCJ" firstAttribute="trailing" secondItem="ssy-KU-ocm" secondAttribute="trailing" id="dJ7-tV-CQz"/>
+                            <constraint firstItem="RqA-Zc-MCJ" firstAttribute="bottom" secondItem="ssy-KU-ocm" secondAttribute="bottom" id="s8e-vS-TmX"/>
+                            <constraint firstItem="RqA-Zc-MCJ" firstAttribute="top" secondItem="OZh-tI-SFB" secondAttribute="bottom" id="uQ3-dD-bzc"/>
+                            <constraint firstItem="OZh-tI-SFB" firstAttribute="top" secondItem="ssy-KU-ocm" secondAttribute="top" id="ua0-Hj-Ot9"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="ssy-KU-ocm"/>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
                     <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
-                    <size key="freeformSize" width="320" height="290"/>
+                    <size key="freeformSize" width="320" height="600"/>
                     <connections>
+                        <outlet property="heightAnchorChart" destination="ZfP-kz-iW8" id="xXI-Oc-4hM"/>
+                        <outlet property="tbView" destination="RqA-Zc-MCJ" id="83M-mf-CDT"/>
                         <outlet property="vPieChart" destination="Bfl-jX-b4m" id="Zdj-Jq-ny6"/>
+                        <outlet property="viewGradient" destination="OZh-tI-SFB" id="i22-zY-0JQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vXp-U4-Rya" userLabel="First Responder" sceneMemberID="firstResponder"/>

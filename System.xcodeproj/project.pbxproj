@@ -29,6 +29,8 @@
 		84D6AF2D237A4BAD00918459 /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6AF2C237A4BAD00918459 /* TodayViewController.swift */; };
 		84D6AF30237A4BAD00918459 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D6AF2E237A4BAD00918459 /* MainInterface.storyboard */; };
 		84D6AF34237A4BAD00918459 /* System.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 84D6AF28237A4BAD00918459 /* System.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		84D6AF42237A667500918459 /* MemoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D6AF40237A667500918459 /* MemoryTableViewCell.swift */; };
+		84D6AF43237A667500918459 /* MemoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84D6AF41237A667500918459 /* MemoryTableViewCell.xib */; };
 		84DB40B92378F50700841468 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB40B82378F50700841468 /* UIView+Extension.swift */; };
 		84DB40BE2378F67C00841468 /* PieCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DB40BC2378F67C00841468 /* PieCollectionViewCell.swift */; };
 		84DB40BF2378F67C00841468 /* PieCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84DB40BD2378F67C00841468 /* PieCollectionViewCell.xib */; };
@@ -169,6 +171,8 @@
 		84D6AF2F237A4BAD00918459 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		84D6AF31237A4BAD00918459 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84D6AF3B237A590600918459 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		84D6AF40237A667500918459 /* MemoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoryTableViewCell.swift; sourceTree = "<group>"; };
+		84D6AF41237A667500918459 /* MemoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MemoryTableViewCell.xib; sourceTree = "<group>"; };
 		84DB40B82378F50700841468 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		84DB40BC2378F67C00841468 /* PieCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieCollectionViewCell.swift; sourceTree = "<group>"; };
 		84DB40BD2378F67C00841468 /* PieCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PieCollectionViewCell.xib; sourceTree = "<group>"; };
@@ -405,12 +409,22 @@
 		84D6AF2B237A4BAD00918459 /* TodayExtension */ = {
 			isa = PBXGroup;
 			children = (
+				84D6AF3F237A665200918459 /* Cell */,
 				84D6AF3B237A590600918459 /* Header.h */,
 				84D6AF2C237A4BAD00918459 /* TodayViewController.swift */,
 				84D6AF2E237A4BAD00918459 /* MainInterface.storyboard */,
 				84D6AF31237A4BAD00918459 /* Info.plist */,
 			);
 			path = TodayExtension;
+			sourceTree = "<group>";
+		};
+		84D6AF3F237A665200918459 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84D6AF40237A667500918459 /* MemoryTableViewCell.swift */,
+				84D6AF41237A667500918459 /* MemoryTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		84DB40B72378F50700841468 /* Extensions */ = {
@@ -966,6 +980,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D6AF43237A667500918459 /* MemoryTableViewCell.xib in Resources */,
 				84D6AF30237A4BAD00918459 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1073,6 +1088,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D6AF42237A667500918459 /* MemoryTableViewCell.swift in Sources */,
 				84D6AF2D237A4BAD00918459 /* TodayViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
